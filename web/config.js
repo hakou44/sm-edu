@@ -1,6 +1,6 @@
 /* Public runtime configuration only. Never place API keys or secrets in this file. */
 window.SM_SCHOOL_CONFIG = Object.freeze({
-  publicContentBase: 'https://hakou44.github.io/sm-school-ai', // Set once to the deployed HTTPS Pages base, e.g. https://OWNER.github.io/REPOSITORY (no trailing slash).
+  publicContentBase: 'https://hakou44.github.io/sm-edu', // Set once to the deployed HTTPS Pages base, e.g. https://OWNER.github.io/REPOSITORY (no trailing slash).
   examsBase: '', // Optional override; otherwise publicContentBase is used for licensed exam files.
   tasnimIndexUrl: '', // Optional override; otherwise publicContentBase + /data/tasnim-index.json is used.
   apiBase: '', // Set to the deployed FastAPI origin for Android builds, e.g. https://api.example.dz (or use the in-app tutor server setting)
