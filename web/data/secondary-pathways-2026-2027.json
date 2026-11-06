@@ -1,0 +1,1168 @@
+{
+  "version": "1.4.1",
+  "academic_year": "2026-2027",
+  "country": "DZ",
+  "policy": {
+    "purpose": "provisional secondary pathway subject planning aid",
+    "official_subject_matrix_verified": false,
+    "verified_pathway_grade_matrices": 0,
+    "candidate_pathway_grade_matrices": 16,
+    "warning": "Candidate subject lists are not official subject matrices. Subject inclusion, naming, hours, coefficients and annual scope require verification against current 2026-2027 Ministry documents."
+  },
+  "first_year_common_trunks": [
+    {
+      "id": "common_science_technology",
+      "name_ar": "جذع مشترك علوم وتكنولوجيا",
+      "name_fr": "Tronc commun Sciences et Technologie",
+      "name_en": "Common Core: Science and Technology",
+      "grades": [
+        "الأولى ثانوي"
+      ],
+      "status": "provisional_label_pending_current_year_confirmation"
+    },
+    {
+      "id": "common_letters",
+      "name_ar": "جذع مشترك آداب",
+      "name_fr": "Tronc commun Lettres",
+      "name_en": "Common Core: Arts and Humanities",
+      "grades": [
+        "الأولى ثانوي"
+      ],
+      "status": "provisional_label_pending_current_year_confirmation"
+    }
+  ],
+  "second_third_year_streams": [
+    {
+      "id": "experimental_sciences",
+      "name_ar": "شعبة علوم تجريبية",
+      "name_fr": "Filière Sciences expérimentales",
+      "name_en": "Experimental Sciences",
+      "grades": [
+        "الثانية ثانوي",
+        "الثالثة ثانوي"
+      ],
+      "status": "provisional_label_pending_current_year_confirmation"
+    },
+    {
+      "id": "mathematics",
+      "name_ar": "شعبة رياضيات",
+      "name_fr": "Filière Mathématiques",
+      "name_en": "Mathematics",
+      "grades": [
+        "الثانية ثانوي",
+        "الثالثة ثانوي"
+      ],
+      "status": "provisional_label_pending_current_year_confirmation"
+    },
+    {
+      "id": "technical_mathematics",
+      "name_ar": "شعبة تقني رياضي",
+      "name_fr": "Filière Mathématiques techniques",
+      "name_en": "Technical Mathematics",
+      "grades": [
+        "الثانية ثانوي",
+        "الثالثة ثانوي"
+      ],
+      "status": "provisional_label_pending_current_year_confirmation"
+    },
+    {
+      "id": "management_economics",
+      "name_ar": "شعبة تسيير واقتصاد",
+      "name_fr": "Filière Gestion et Économie",
+      "name_en": "Management and Economics",
+      "grades": [
+        "الثانية ثانوي",
+        "الثالثة ثانوي"
+      ],
+      "status": "provisional_label_pending_current_year_confirmation"
+    },
+    {
+      "id": "letters_philosophy",
+      "name_ar": "شعبة آداب وفلسفة",
+      "name_fr": "Filière Lettres et Philosophie",
+      "name_en": "Letters and Philosophy",
+      "grades": [
+        "الثانية ثانوي",
+        "الثالثة ثانوي"
+      ],
+      "status": "provisional_label_pending_current_year_confirmation"
+    },
+    {
+      "id": "foreign_languages",
+      "name_ar": "شعبة لغات أجنبية",
+      "name_fr": "Filière Langues étrangères",
+      "name_en": "Foreign Languages",
+      "grades": [
+        "الثانية ثانوي",
+        "الثالثة ثانوي"
+      ],
+      "status": "provisional_label_pending_current_year_confirmation"
+    },
+    {
+      "id": "arts",
+      "name_ar": "شعبة فنون",
+      "name_fr": "Filière Arts",
+      "name_en": "Arts",
+      "grades": [
+        "الثانية ثانوي",
+        "الثالثة ثانوي"
+      ],
+      "status": "provisional_label_pending_current_year_confirmation"
+    }
+  ],
+  "subject_matrix_records": [
+    {
+      "id": "common_science_technology-1",
+      "pathway_id": "common_science_technology",
+      "grade": "الأولى ثانوي",
+      "common_subject_candidates": [
+        {
+          "ar": "اللغة العربية",
+          "fr": "Langue arabe",
+          "en": "Arabic"
+        },
+        {
+          "ar": "اللغة الفرنسية",
+          "fr": "Langue française",
+          "en": "French"
+        },
+        {
+          "ar": "اللغة الإنجليزية",
+          "fr": "Langue anglaise",
+          "en": "English"
+        },
+        {
+          "ar": "التربية الإسلامية",
+          "fr": "Éducation islamique",
+          "en": "Islamic Education"
+        },
+        {
+          "ar": "التاريخ والجغرافيا",
+          "fr": "Histoire-géographie",
+          "en": "History and Geography"
+        },
+        {
+          "ar": "التربية البدنية",
+          "fr": "Éducation physique",
+          "en": "Physical Education"
+        },
+        {
+          "ar": "الرياضيات",
+          "fr": "Mathématiques",
+          "en": "Mathematics"
+        },
+        {
+          "ar": "العلوم الفيزيائية",
+          "fr": "Sciences physiques",
+          "en": "Physics"
+        },
+        {
+          "ar": "علوم الطبيعة والحياة",
+          "fr": "Sciences de la nature et de la vie",
+          "en": "Natural and Life Sciences"
+        },
+        {
+          "ar": "الإعلام الآلي",
+          "fr": "Informatique",
+          "en": "Computer Science"
+        }
+      ],
+      "specialization_subject_candidates": [
+        {
+          "ar": "التكنولوجيا",
+          "fr": "Technologie",
+          "en": "Technology"
+        }
+      ],
+      "status": "provisional_candidate_matrix_not_verified",
+      "official_source_ids": [],
+      "verified": false,
+      "notes": "Planning aid only. Candidate subjects are not a confirmed 2026-2027 Ministry timetable; verify subject names, inclusion, hours, coefficients and branch-specific scope against current official documents before treating as authoritative."
+    },
+    {
+      "id": "common_letters-1",
+      "pathway_id": "common_letters",
+      "grade": "الأولى ثانوي",
+      "common_subject_candidates": [
+        {
+          "ar": "اللغة العربية",
+          "fr": "Langue arabe",
+          "en": "Arabic"
+        },
+        {
+          "ar": "اللغة الفرنسية",
+          "fr": "Langue française",
+          "en": "French"
+        },
+        {
+          "ar": "اللغة الإنجليزية",
+          "fr": "Langue anglaise",
+          "en": "English"
+        },
+        {
+          "ar": "التربية الإسلامية",
+          "fr": "Éducation islamique",
+          "en": "Islamic Education"
+        },
+        {
+          "ar": "التاريخ والجغرافيا",
+          "fr": "Histoire-géographie",
+          "en": "History and Geography"
+        },
+        {
+          "ar": "التربية البدنية",
+          "fr": "Éducation physique",
+          "en": "Physical Education"
+        },
+        {
+          "ar": "الرياضيات",
+          "fr": "Mathématiques",
+          "en": "Mathematics"
+        },
+        {
+          "ar": "الفلسفة",
+          "fr": "Philosophie",
+          "en": "Philosophy"
+        },
+        {
+          "ar": "الإعلام الآلي",
+          "fr": "Informatique",
+          "en": "Computer Science"
+        }
+      ],
+      "specialization_subject_candidates": [
+        {
+          "ar": "اللغة والأدب",
+          "fr": "Langue et littérature",
+          "en": "Language and Literature"
+        }
+      ],
+      "status": "provisional_candidate_matrix_not_verified",
+      "official_source_ids": [],
+      "verified": false,
+      "notes": "Planning aid only. Candidate subjects are not a confirmed 2026-2027 Ministry timetable; verify subject names, inclusion, hours, coefficients and branch-specific scope against current official documents before treating as authoritative."
+    },
+    {
+      "id": "experimental_sciences-2",
+      "pathway_id": "experimental_sciences",
+      "grade": "الثانية ثانوي",
+      "common_subject_candidates": [
+        {
+          "ar": "اللغة العربية",
+          "fr": "Langue arabe",
+          "en": "Arabic"
+        },
+        {
+          "ar": "اللغة الفرنسية",
+          "fr": "Langue française",
+          "en": "French"
+        },
+        {
+          "ar": "اللغة الإنجليزية",
+          "fr": "Langue anglaise",
+          "en": "English"
+        },
+        {
+          "ar": "التربية الإسلامية",
+          "fr": "Éducation islamique",
+          "en": "Islamic Education"
+        },
+        {
+          "ar": "التاريخ والجغرافيا",
+          "fr": "Histoire-géographie",
+          "en": "History and Geography"
+        },
+        {
+          "ar": "التربية البدنية",
+          "fr": "Éducation physique",
+          "en": "Physical Education"
+        },
+        {
+          "ar": "الرياضيات",
+          "fr": "Mathématiques",
+          "en": "Mathematics"
+        },
+        {
+          "ar": "العلوم الفيزيائية",
+          "fr": "Sciences physiques",
+          "en": "Physics"
+        },
+        {
+          "ar": "علوم الطبيعة والحياة",
+          "fr": "Sciences de la nature et de la vie",
+          "en": "Natural and Life Sciences"
+        },
+        {
+          "ar": "الإعلام الآلي",
+          "fr": "Informatique",
+          "en": "Computer Science"
+        }
+      ],
+      "specialization_subject_candidates": [
+        {
+          "ar": "علوم الطبيعة والحياة - تعمق تخصصي",
+          "fr": "Sciences de la nature - approfondissement",
+          "en": "Advanced Life Sciences"
+        }
+      ],
+      "status": "provisional_candidate_matrix_not_verified",
+      "official_source_ids": [],
+      "verified": false,
+      "notes": "Planning aid only. Candidate subjects are not a confirmed 2026-2027 Ministry timetable; verify subject names, inclusion, hours, coefficients and branch-specific scope against current official documents before treating as authoritative."
+    },
+    {
+      "id": "experimental_sciences-3",
+      "pathway_id": "experimental_sciences",
+      "grade": "الثالثة ثانوي",
+      "common_subject_candidates": [
+        {
+          "ar": "اللغة العربية",
+          "fr": "Langue arabe",
+          "en": "Arabic"
+        },
+        {
+          "ar": "اللغة الفرنسية",
+          "fr": "Langue française",
+          "en": "French"
+        },
+        {
+          "ar": "اللغة الإنجليزية",
+          "fr": "Langue anglaise",
+          "en": "English"
+        },
+        {
+          "ar": "التربية الإسلامية",
+          "fr": "Éducation islamique",
+          "en": "Islamic Education"
+        },
+        {
+          "ar": "التاريخ والجغرافيا",
+          "fr": "Histoire-géographie",
+          "en": "History and Geography"
+        },
+        {
+          "ar": "التربية البدنية",
+          "fr": "Éducation physique",
+          "en": "Physical Education"
+        },
+        {
+          "ar": "الرياضيات",
+          "fr": "Mathématiques",
+          "en": "Mathematics"
+        },
+        {
+          "ar": "العلوم الفيزيائية",
+          "fr": "Sciences physiques",
+          "en": "Physics"
+        },
+        {
+          "ar": "علوم الطبيعة والحياة",
+          "fr": "Sciences de la nature et de la vie",
+          "en": "Natural and Life Sciences"
+        },
+        {
+          "ar": "الإعلام الآلي",
+          "fr": "Informatique",
+          "en": "Computer Science"
+        }
+      ],
+      "specialization_subject_candidates": [
+        {
+          "ar": "علوم الطبيعة والحياة - تعمق تخصصي",
+          "fr": "Sciences de la nature - approfondissement",
+          "en": "Advanced Life Sciences"
+        }
+      ],
+      "status": "provisional_candidate_matrix_not_verified",
+      "official_source_ids": [],
+      "verified": false,
+      "notes": "Planning aid only. Candidate subjects are not a confirmed 2026-2027 Ministry timetable; verify subject names, inclusion, hours, coefficients and branch-specific scope against current official documents before treating as authoritative."
+    },
+    {
+      "id": "mathematics-2",
+      "pathway_id": "mathematics",
+      "grade": "الثانية ثانوي",
+      "common_subject_candidates": [
+        {
+          "ar": "اللغة العربية",
+          "fr": "Langue arabe",
+          "en": "Arabic"
+        },
+        {
+          "ar": "اللغة الفرنسية",
+          "fr": "Langue française",
+          "en": "French"
+        },
+        {
+          "ar": "اللغة الإنجليزية",
+          "fr": "Langue anglaise",
+          "en": "English"
+        },
+        {
+          "ar": "التربية الإسلامية",
+          "fr": "Éducation islamique",
+          "en": "Islamic Education"
+        },
+        {
+          "ar": "التاريخ والجغرافيا",
+          "fr": "Histoire-géographie",
+          "en": "History and Geography"
+        },
+        {
+          "ar": "التربية البدنية",
+          "fr": "Éducation physique",
+          "en": "Physical Education"
+        },
+        {
+          "ar": "الرياضيات",
+          "fr": "Mathématiques",
+          "en": "Mathematics"
+        },
+        {
+          "ar": "العلوم الفيزيائية",
+          "fr": "Sciences physiques",
+          "en": "Physics"
+        },
+        {
+          "ar": "الإعلام الآلي",
+          "fr": "Informatique",
+          "en": "Computer Science"
+        }
+      ],
+      "specialization_subject_candidates": [
+        {
+          "ar": "الرياضيات - تعمق تخصصي",
+          "fr": "Mathématiques - approfondissement",
+          "en": "Advanced Mathematics"
+        }
+      ],
+      "status": "provisional_candidate_matrix_not_verified",
+      "official_source_ids": [],
+      "verified": false,
+      "notes": "Planning aid only. Candidate subjects are not a confirmed 2026-2027 Ministry timetable; verify subject names, inclusion, hours, coefficients and branch-specific scope against current official documents before treating as authoritative."
+    },
+    {
+      "id": "mathematics-3",
+      "pathway_id": "mathematics",
+      "grade": "الثالثة ثانوي",
+      "common_subject_candidates": [
+        {
+          "ar": "اللغة العربية",
+          "fr": "Langue arabe",
+          "en": "Arabic"
+        },
+        {
+          "ar": "اللغة الفرنسية",
+          "fr": "Langue française",
+          "en": "French"
+        },
+        {
+          "ar": "اللغة الإنجليزية",
+          "fr": "Langue anglaise",
+          "en": "English"
+        },
+        {
+          "ar": "التربية الإسلامية",
+          "fr": "Éducation islamique",
+          "en": "Islamic Education"
+        },
+        {
+          "ar": "التاريخ والجغرافيا",
+          "fr": "Histoire-géographie",
+          "en": "History and Geography"
+        },
+        {
+          "ar": "التربية البدنية",
+          "fr": "Éducation physique",
+          "en": "Physical Education"
+        },
+        {
+          "ar": "الرياضيات",
+          "fr": "Mathématiques",
+          "en": "Mathematics"
+        },
+        {
+          "ar": "العلوم الفيزيائية",
+          "fr": "Sciences physiques",
+          "en": "Physics"
+        },
+        {
+          "ar": "الإعلام الآلي",
+          "fr": "Informatique",
+          "en": "Computer Science"
+        }
+      ],
+      "specialization_subject_candidates": [
+        {
+          "ar": "الرياضيات - تعمق تخصصي",
+          "fr": "Mathématiques - approfondissement",
+          "en": "Advanced Mathematics"
+        }
+      ],
+      "status": "provisional_candidate_matrix_not_verified",
+      "official_source_ids": [],
+      "verified": false,
+      "notes": "Planning aid only. Candidate subjects are not a confirmed 2026-2027 Ministry timetable; verify subject names, inclusion, hours, coefficients and branch-specific scope against current official documents before treating as authoritative."
+    },
+    {
+      "id": "technical_mathematics-2",
+      "pathway_id": "technical_mathematics",
+      "grade": "الثانية ثانوي",
+      "common_subject_candidates": [
+        {
+          "ar": "اللغة العربية",
+          "fr": "Langue arabe",
+          "en": "Arabic"
+        },
+        {
+          "ar": "اللغة الفرنسية",
+          "fr": "Langue française",
+          "en": "French"
+        },
+        {
+          "ar": "اللغة الإنجليزية",
+          "fr": "Langue anglaise",
+          "en": "English"
+        },
+        {
+          "ar": "التربية الإسلامية",
+          "fr": "Éducation islamique",
+          "en": "Islamic Education"
+        },
+        {
+          "ar": "التاريخ والجغرافيا",
+          "fr": "Histoire-géographie",
+          "en": "History and Geography"
+        },
+        {
+          "ar": "التربية البدنية",
+          "fr": "Éducation physique",
+          "en": "Physical Education"
+        },
+        {
+          "ar": "الرياضيات",
+          "fr": "Mathématiques",
+          "en": "Mathematics"
+        },
+        {
+          "ar": "العلوم الفيزيائية",
+          "fr": "Sciences physiques",
+          "en": "Physics"
+        },
+        {
+          "ar": "الإعلام الآلي",
+          "fr": "Informatique",
+          "en": "Computer Science"
+        }
+      ],
+      "specialization_subject_candidates": [
+        {
+          "ar": "التكنولوجيا الهندسية",
+          "fr": "Technologie de l’ingénieur",
+          "en": "Engineering Technology"
+        },
+        {
+          "ar": "الرسم التقني",
+          "fr": "Dessin technique",
+          "en": "Technical Drawing"
+        }
+      ],
+      "status": "provisional_candidate_matrix_not_verified",
+      "official_source_ids": [],
+      "verified": false,
+      "notes": "Planning aid only. Candidate subjects are not a confirmed 2026-2027 Ministry timetable; verify subject names, inclusion, hours, coefficients and branch-specific scope against current official documents before treating as authoritative."
+    },
+    {
+      "id": "technical_mathematics-3",
+      "pathway_id": "technical_mathematics",
+      "grade": "الثالثة ثانوي",
+      "common_subject_candidates": [
+        {
+          "ar": "اللغة العربية",
+          "fr": "Langue arabe",
+          "en": "Arabic"
+        },
+        {
+          "ar": "اللغة الفرنسية",
+          "fr": "Langue française",
+          "en": "French"
+        },
+        {
+          "ar": "اللغة الإنجليزية",
+          "fr": "Langue anglaise",
+          "en": "English"
+        },
+        {
+          "ar": "التربية الإسلامية",
+          "fr": "Éducation islamique",
+          "en": "Islamic Education"
+        },
+        {
+          "ar": "التاريخ والجغرافيا",
+          "fr": "Histoire-géographie",
+          "en": "History and Geography"
+        },
+        {
+          "ar": "التربية البدنية",
+          "fr": "Éducation physique",
+          "en": "Physical Education"
+        },
+        {
+          "ar": "الرياضيات",
+          "fr": "Mathématiques",
+          "en": "Mathematics"
+        },
+        {
+          "ar": "العلوم الفيزيائية",
+          "fr": "Sciences physiques",
+          "en": "Physics"
+        },
+        {
+          "ar": "الإعلام الآلي",
+          "fr": "Informatique",
+          "en": "Computer Science"
+        }
+      ],
+      "specialization_subject_candidates": [
+        {
+          "ar": "التكنولوجيا الهندسية",
+          "fr": "Technologie de l’ingénieur",
+          "en": "Engineering Technology"
+        },
+        {
+          "ar": "الرسم التقني",
+          "fr": "Dessin technique",
+          "en": "Technical Drawing"
+        }
+      ],
+      "status": "provisional_candidate_matrix_not_verified",
+      "official_source_ids": [],
+      "verified": false,
+      "notes": "Planning aid only. Candidate subjects are not a confirmed 2026-2027 Ministry timetable; verify subject names, inclusion, hours, coefficients and branch-specific scope against current official documents before treating as authoritative."
+    },
+    {
+      "id": "management_economics-2",
+      "pathway_id": "management_economics",
+      "grade": "الثانية ثانوي",
+      "common_subject_candidates": [
+        {
+          "ar": "اللغة العربية",
+          "fr": "Langue arabe",
+          "en": "Arabic"
+        },
+        {
+          "ar": "اللغة الفرنسية",
+          "fr": "Langue française",
+          "en": "French"
+        },
+        {
+          "ar": "اللغة الإنجليزية",
+          "fr": "Langue anglaise",
+          "en": "English"
+        },
+        {
+          "ar": "التربية الإسلامية",
+          "fr": "Éducation islamique",
+          "en": "Islamic Education"
+        },
+        {
+          "ar": "التاريخ والجغرافيا",
+          "fr": "Histoire-géographie",
+          "en": "History and Geography"
+        },
+        {
+          "ar": "التربية البدنية",
+          "fr": "Éducation physique",
+          "en": "Physical Education"
+        },
+        {
+          "ar": "الرياضيات",
+          "fr": "Mathématiques",
+          "en": "Mathematics"
+        },
+        {
+          "ar": "الإعلام الآلي",
+          "fr": "Informatique",
+          "en": "Computer Science"
+        }
+      ],
+      "specialization_subject_candidates": [
+        {
+          "ar": "التسيير المحاسبي والمالي",
+          "fr": "Gestion comptable et financière",
+          "en": "Accounting and Financial Management"
+        },
+        {
+          "ar": "الاقتصاد والمناجمنت",
+          "fr": "Économie et management",
+          "en": "Economics and Management"
+        },
+        {
+          "ar": "القانون",
+          "fr": "Droit",
+          "en": "Law"
+        }
+      ],
+      "status": "provisional_candidate_matrix_not_verified",
+      "official_source_ids": [],
+      "verified": false,
+      "notes": "Planning aid only. Candidate subjects are not a confirmed 2026-2027 Ministry timetable; verify subject names, inclusion, hours, coefficients and branch-specific scope against current official documents before treating as authoritative."
+    },
+    {
+      "id": "management_economics-3",
+      "pathway_id": "management_economics",
+      "grade": "الثالثة ثانوي",
+      "common_subject_candidates": [
+        {
+          "ar": "اللغة العربية",
+          "fr": "Langue arabe",
+          "en": "Arabic"
+        },
+        {
+          "ar": "اللغة الفرنسية",
+          "fr": "Langue française",
+          "en": "French"
+        },
+        {
+          "ar": "اللغة الإنجليزية",
+          "fr": "Langue anglaise",
+          "en": "English"
+        },
+        {
+          "ar": "التربية الإسلامية",
+          "fr": "Éducation islamique",
+          "en": "Islamic Education"
+        },
+        {
+          "ar": "التاريخ والجغرافيا",
+          "fr": "Histoire-géographie",
+          "en": "History and Geography"
+        },
+        {
+          "ar": "التربية البدنية",
+          "fr": "Éducation physique",
+          "en": "Physical Education"
+        },
+        {
+          "ar": "الرياضيات",
+          "fr": "Mathématiques",
+          "en": "Mathematics"
+        },
+        {
+          "ar": "الإعلام الآلي",
+          "fr": "Informatique",
+          "en": "Computer Science"
+        }
+      ],
+      "specialization_subject_candidates": [
+        {
+          "ar": "التسيير المحاسبي والمالي",
+          "fr": "Gestion comptable et financière",
+          "en": "Accounting and Financial Management"
+        },
+        {
+          "ar": "الاقتصاد والمناجمنت",
+          "fr": "Économie et management",
+          "en": "Economics and Management"
+        },
+        {
+          "ar": "القانون",
+          "fr": "Droit",
+          "en": "Law"
+        }
+      ],
+      "status": "provisional_candidate_matrix_not_verified",
+      "official_source_ids": [],
+      "verified": false,
+      "notes": "Planning aid only. Candidate subjects are not a confirmed 2026-2027 Ministry timetable; verify subject names, inclusion, hours, coefficients and branch-specific scope against current official documents before treating as authoritative."
+    },
+    {
+      "id": "letters_philosophy-2",
+      "pathway_id": "letters_philosophy",
+      "grade": "الثانية ثانوي",
+      "common_subject_candidates": [
+        {
+          "ar": "اللغة العربية",
+          "fr": "Langue arabe",
+          "en": "Arabic"
+        },
+        {
+          "ar": "اللغة الفرنسية",
+          "fr": "Langue française",
+          "en": "French"
+        },
+        {
+          "ar": "اللغة الإنجليزية",
+          "fr": "Langue anglaise",
+          "en": "English"
+        },
+        {
+          "ar": "التربية الإسلامية",
+          "fr": "Éducation islamique",
+          "en": "Islamic Education"
+        },
+        {
+          "ar": "التاريخ والجغرافيا",
+          "fr": "Histoire-géographie",
+          "en": "History and Geography"
+        },
+        {
+          "ar": "التربية البدنية",
+          "fr": "Éducation physique",
+          "en": "Physical Education"
+        },
+        {
+          "ar": "الرياضيات",
+          "fr": "Mathématiques",
+          "en": "Mathematics"
+        },
+        {
+          "ar": "الفلسفة",
+          "fr": "Philosophie",
+          "en": "Philosophy"
+        }
+      ],
+      "specialization_subject_candidates": [
+        {
+          "ar": "الأدب العربي",
+          "fr": "Littérature arabe",
+          "en": "Arabic Literature"
+        },
+        {
+          "ar": "اللغة والأدب",
+          "fr": "Langue et littérature",
+          "en": "Language and Literature"
+        }
+      ],
+      "status": "provisional_candidate_matrix_not_verified",
+      "official_source_ids": [],
+      "verified": false,
+      "notes": "Planning aid only. Candidate subjects are not a confirmed 2026-2027 Ministry timetable; verify subject names, inclusion, hours, coefficients and branch-specific scope against current official documents before treating as authoritative."
+    },
+    {
+      "id": "letters_philosophy-3",
+      "pathway_id": "letters_philosophy",
+      "grade": "الثالثة ثانوي",
+      "common_subject_candidates": [
+        {
+          "ar": "اللغة العربية",
+          "fr": "Langue arabe",
+          "en": "Arabic"
+        },
+        {
+          "ar": "اللغة الفرنسية",
+          "fr": "Langue française",
+          "en": "French"
+        },
+        {
+          "ar": "اللغة الإنجليزية",
+          "fr": "Langue anglaise",
+          "en": "English"
+        },
+        {
+          "ar": "التربية الإسلامية",
+          "fr": "Éducation islamique",
+          "en": "Islamic Education"
+        },
+        {
+          "ar": "التاريخ والجغرافيا",
+          "fr": "Histoire-géographie",
+          "en": "History and Geography"
+        },
+        {
+          "ar": "التربية البدنية",
+          "fr": "Éducation physique",
+          "en": "Physical Education"
+        },
+        {
+          "ar": "الرياضيات",
+          "fr": "Mathématiques",
+          "en": "Mathematics"
+        },
+        {
+          "ar": "الفلسفة",
+          "fr": "Philosophie",
+          "en": "Philosophy"
+        }
+      ],
+      "specialization_subject_candidates": [
+        {
+          "ar": "الأدب العربي",
+          "fr": "Littérature arabe",
+          "en": "Arabic Literature"
+        },
+        {
+          "ar": "اللغة والأدب",
+          "fr": "Langue et littérature",
+          "en": "Language and Literature"
+        }
+      ],
+      "status": "provisional_candidate_matrix_not_verified",
+      "official_source_ids": [],
+      "verified": false,
+      "notes": "Planning aid only. Candidate subjects are not a confirmed 2026-2027 Ministry timetable; verify subject names, inclusion, hours, coefficients and branch-specific scope against current official documents before treating as authoritative."
+    },
+    {
+      "id": "foreign_languages-2",
+      "pathway_id": "foreign_languages",
+      "grade": "الثانية ثانوي",
+      "common_subject_candidates": [
+        {
+          "ar": "اللغة العربية",
+          "fr": "Langue arabe",
+          "en": "Arabic"
+        },
+        {
+          "ar": "اللغة الفرنسية",
+          "fr": "Langue française",
+          "en": "French"
+        },
+        {
+          "ar": "اللغة الإنجليزية",
+          "fr": "Langue anglaise",
+          "en": "English"
+        },
+        {
+          "ar": "التربية الإسلامية",
+          "fr": "Éducation islamique",
+          "en": "Islamic Education"
+        },
+        {
+          "ar": "التاريخ والجغرافيا",
+          "fr": "Histoire-géographie",
+          "en": "History and Geography"
+        },
+        {
+          "ar": "التربية البدنية",
+          "fr": "Éducation physique",
+          "en": "Physical Education"
+        },
+        {
+          "ar": "الرياضيات",
+          "fr": "Mathématiques",
+          "en": "Mathematics"
+        },
+        {
+          "ar": "الفلسفة",
+          "fr": "Philosophie",
+          "en": "Philosophy"
+        }
+      ],
+      "specialization_subject_candidates": [
+        {
+          "ar": "لغة أجنبية ثالثة (حسب العرض)",
+          "fr": "Troisième langue étrangère (selon l’offre)",
+          "en": "Third Foreign Language (subject to availability)"
+        },
+        {
+          "ar": "الأدب والحضارات",
+          "fr": "Littérature et civilisations",
+          "en": "Literature and Civilizations"
+        }
+      ],
+      "status": "provisional_candidate_matrix_not_verified",
+      "official_source_ids": [],
+      "verified": false,
+      "notes": "Planning aid only. Candidate subjects are not a confirmed 2026-2027 Ministry timetable; verify subject names, inclusion, hours, coefficients and branch-specific scope against current official documents before treating as authoritative."
+    },
+    {
+      "id": "foreign_languages-3",
+      "pathway_id": "foreign_languages",
+      "grade": "الثالثة ثانوي",
+      "common_subject_candidates": [
+        {
+          "ar": "اللغة العربية",
+          "fr": "Langue arabe",
+          "en": "Arabic"
+        },
+        {
+          "ar": "اللغة الفرنسية",
+          "fr": "Langue française",
+          "en": "French"
+        },
+        {
+          "ar": "اللغة الإنجليزية",
+          "fr": "Langue anglaise",
+          "en": "English"
+        },
+        {
+          "ar": "التربية الإسلامية",
+          "fr": "Éducation islamique",
+          "en": "Islamic Education"
+        },
+        {
+          "ar": "التاريخ والجغرافيا",
+          "fr": "Histoire-géographie",
+          "en": "History and Geography"
+        },
+        {
+          "ar": "التربية البدنية",
+          "fr": "Éducation physique",
+          "en": "Physical Education"
+        },
+        {
+          "ar": "الرياضيات",
+          "fr": "Mathématiques",
+          "en": "Mathematics"
+        },
+        {
+          "ar": "الفلسفة",
+          "fr": "Philosophie",
+          "en": "Philosophy"
+        }
+      ],
+      "specialization_subject_candidates": [
+        {
+          "ar": "لغة أجنبية ثالثة (حسب العرض)",
+          "fr": "Troisième langue étrangère (selon l’offre)",
+          "en": "Third Foreign Language (subject to availability)"
+        },
+        {
+          "ar": "الأدب والحضارات",
+          "fr": "Littérature et civilisations",
+          "en": "Literature and Civilizations"
+        }
+      ],
+      "status": "provisional_candidate_matrix_not_verified",
+      "official_source_ids": [],
+      "verified": false,
+      "notes": "Planning aid only. Candidate subjects are not a confirmed 2026-2027 Ministry timetable; verify subject names, inclusion, hours, coefficients and branch-specific scope against current official documents before treating as authoritative."
+    },
+    {
+      "id": "arts-2",
+      "pathway_id": "arts",
+      "grade": "الثانية ثانوي",
+      "common_subject_candidates": [
+        {
+          "ar": "اللغة العربية",
+          "fr": "Langue arabe",
+          "en": "Arabic"
+        },
+        {
+          "ar": "اللغة الفرنسية",
+          "fr": "Langue française",
+          "en": "French"
+        },
+        {
+          "ar": "اللغة الإنجليزية",
+          "fr": "Langue anglaise",
+          "en": "English"
+        },
+        {
+          "ar": "التربية الإسلامية",
+          "fr": "Éducation islamique",
+          "en": "Islamic Education"
+        },
+        {
+          "ar": "التاريخ والجغرافيا",
+          "fr": "Histoire-géographie",
+          "en": "History and Geography"
+        },
+        {
+          "ar": "التربية البدنية",
+          "fr": "Éducation physique",
+          "en": "Physical Education"
+        },
+        {
+          "ar": "الرياضيات",
+          "fr": "Mathématiques",
+          "en": "Mathematics"
+        },
+        {
+          "ar": "الفلسفة",
+          "fr": "Philosophie",
+          "en": "Philosophy"
+        }
+      ],
+      "specialization_subject_candidates": [
+        {
+          "ar": "الفنون التشكيلية",
+          "fr": "Arts plastiques",
+          "en": "Visual Arts"
+        },
+        {
+          "ar": "الموسيقى",
+          "fr": "Musique",
+          "en": "Music"
+        },
+        {
+          "ar": "المسرح",
+          "fr": "Théâtre",
+          "en": "Theatre"
+        }
+      ],
+      "status": "provisional_candidate_matrix_not_verified",
+      "official_source_ids": [],
+      "verified": false,
+      "notes": "Planning aid only. Candidate subjects are not a confirmed 2026-2027 Ministry timetable; verify subject names, inclusion, hours, coefficients and branch-specific scope against current official documents before treating as authoritative."
+    },
+    {
+      "id": "arts-3",
+      "pathway_id": "arts",
+      "grade": "الثالثة ثانوي",
+      "common_subject_candidates": [
+        {
+          "ar": "اللغة العربية",
+          "fr": "Langue arabe",
+          "en": "Arabic"
+        },
+        {
+          "ar": "اللغة الفرنسية",
+          "fr": "Langue française",
+          "en": "French"
+        },
+        {
+          "ar": "اللغة الإنجليزية",
+          "fr": "Langue anglaise",
+          "en": "English"
+        },
+        {
+          "ar": "التربية الإسلامية",
+          "fr": "Éducation islamique",
+          "en": "Islamic Education"
+        },
+        {
+          "ar": "التاريخ والجغرافيا",
+          "fr": "Histoire-géographie",
+          "en": "History and Geography"
+        },
+        {
+          "ar": "التربية البدنية",
+          "fr": "Éducation physique",
+          "en": "Physical Education"
+        },
+        {
+          "ar": "الرياضيات",
+          "fr": "Mathématiques",
+          "en": "Mathematics"
+        },
+        {
+          "ar": "الفلسفة",
+          "fr": "Philosophie",
+          "en": "Philosophy"
+        }
+      ],
+      "specialization_subject_candidates": [
+        {
+          "ar": "الفنون التشكيلية",
+          "fr": "Arts plastiques",
+          "en": "Visual Arts"
+        },
+        {
+          "ar": "الموسيقى",
+          "fr": "Musique",
+          "en": "Music"
+        },
+        {
+          "ar": "المسرح",
+          "fr": "Théâtre",
+          "en": "Theatre"
+        }
+      ],
+      "status": "provisional_candidate_matrix_not_verified",
+      "official_source_ids": [],
+      "verified": false,
+      "notes": "Planning aid only. Candidate subjects are not a confirmed 2026-2027 Ministry timetable; verify subject names, inclusion, hours, coefficients and branch-specific scope against current official documents before treating as authoritative."
+    }
+  ]
+}

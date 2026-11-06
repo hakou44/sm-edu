@@ -1,0 +1,10 @@
+const fs=require('fs'),assert=require('assert'),path=require('path');
+const root=path.join(__dirname,'..');
+const report=JSON.parse(fs.readFileSync(path.join(root,'web/data/curriculum-integrity-audit-2026-2027.json'),'utf8'));
+const gov=JSON.parse(fs.readFileSync(path.join(root,'web/data/curriculum-governance-2026-2027.json'),'utf8'));
+assert.equal(report.version,'1.14.0');
+assert.equal(report.summary.grade_subject_records,gov.grade_subject_records.length);
+assert.equal(report.summary.officially_verified_progression_pairs,gov.totals.verified_current_annual_progression_pairs);
+assert.equal(report.errors.length,0,report.errors.join('\n'));
+assert(report.policy.includes('never promotes'));
+console.log('PASS: v1.14.0 curriculum integrity audit preserves official-verification guardrails');

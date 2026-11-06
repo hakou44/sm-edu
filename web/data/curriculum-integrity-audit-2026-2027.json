@@ -1,0 +1,22 @@
+{
+  "version": "1.14.0",
+  "academic_year": "2026-2027",
+  "purpose": "Automated integrity audit only; not Ministry curriculum approval.",
+  "summary": {
+    "grade_subject_records": 105,
+    "exercise_records": 1581,
+    "officially_verified_progression_pairs": 0,
+    "exact_duplicate_questions": 0,
+    "errors": 0,
+    "warnings": 0
+  },
+  "policy": "The audit never promotes a platform-authored topic, lesson, exercise or exam to official status.",
+  "errors": [],
+  "warnings": [],
+  "duplicate_examples": [],
+  "inputs_sha256": {
+    "curriculum-governance-2026-2027.json": "7149460d26b206db8d19490b1bb0dcda28a31306d640d66231ae5b1eea116f68",
+    "exercise-bank-2026-2027.json": "b8e3bd90aadd0508c0df04b6f8b3fd2489842ca14e9ad07ebe9cf0e37870cdc0",
+    "coverage-report-2026-2027.json": "fd2b1769621eda43bd05a3265343b8ed6d8c2140eadcec52f1e8c7ed673b53f4"
+  }
+}

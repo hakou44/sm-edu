@@ -1,0 +1,158 @@
+{
+  "academic_year": "2026-2027",
+  "country": "DZ",
+  "policy": "Official ministry publications are authoritative only for the specific claims stated in each record. Current policy notices do not establish complete grade/subject/term progressions. Historical PDFs are discovery references only. Exact 2026-2027 lesson and stream alignment remains unverified until a current ministry progression document is reviewed page-by-page.",
+  "sources": [
+    {
+      "id": "ministry-2026-07-25-reform-announcement",
+      "title": "2026-2027 school-year pedagogical reforms announcement",
+      "url": "https://www.education.gov.dz/2026/07/25/وزير-التربية-الوطنية-يشرف-على-أشغال-الندوة-الوطنية-لتحضير-الدخول-المدرسي-2026-2027-ويعلن-عن-إصلاحات-جديدة-لتعزيز-جودة-التعليم/",
+      "publisher": "Ministry of National Education, Algeria",
+      "published": "2026-07-25",
+      "status": "current_policy_notice",
+      "covers": [
+        "primary",
+        "middle",
+        "secondary"
+      ],
+      "validates": [
+        "foreign_language_starts",
+        "general_reorganization_notice",
+        "future_2027_2028_secondary_branch_restructure",
+        "future_2027_2028_informatics_stream"
+      ],
+      "does_not_validate": [
+        "lesson_sequence",
+        "all_subject_matrices",
+        "coefficients"
+      ],
+      "notes": "Confirms English from primary year 3, French from year 4 and broad reorganization; not a grade-by-grade annual progression. It explicitly places the full shift to branches and the new Informatics stream in 2027-2028; do not apply these future changes to 2026-2027."
+    },
+    {
+      "id": "ministry-2026-07-29-pedagogical-arrangements",
+      "title": "Official notice on pedagogical arrangements for 2026-2027",
+      "url": "https://www.education.gov.dz/2026/07/29/بلاغ-حول-الترتيبات-البيداغوجية-المتخذة-للموسم-الدراسي-2026-2027/",
+      "publisher": "Ministry of National Education, Algeria",
+      "published": "2026-07-29",
+      "status": "current_policy_notice",
+      "covers": [
+        "primary",
+        "middle",
+        "secondary"
+      ],
+      "validates": [
+        "policy_context"
+      ],
+      "does_not_validate": [
+        "lesson_sequence",
+        "subject_matrices"
+      ],
+      "notes": "Official ministry notice; requires document-level review before extracting detailed grade/subject claims."
+    },
+    {
+      "id": "ministry-2026-07-30-reform-update",
+      "title": "Clarifications on pedagogical arrangements for the 2026–2027 school year",
+      "url": "https://www.education.gov.dz/2026/07/30/وزير-التربية-الوطنية-ينشّط-ندوة-صحفية-يقدّم-فيها-توضيحات-حول-الترتيبات-البيداغوجية-الجديدة-الخاصة-بالدخول-المدرسي-2026-2027/",
+      "publisher": "Ministry of National Education, Algeria",
+      "published": "2026-07-30",
+      "status": "current_policy_notice",
+      "covers": [
+        "primary",
+        "middle",
+        "secondary"
+      ],
+      "validates": [
+        "primary_english_from_grade_3",
+        "primary_french_from_grade_4",
+        "middle_structure_preserved",
+        "secondary_common_trunk_continues",
+        "secondary_content_reorganization",
+        "bac_exam_subjects_remain_grade_3",
+        "informatics_3as_mathematics_and_engineering_streams",
+        "future_2027_2028_secondary_branch_restructure",
+        "future_2027_2028_informatics_stream"
+      ],
+      "does_not_validate": [
+        "exact_annual_progressions",
+        "all_stream_subject_matrices",
+        "term_lesson_sequences",
+        "coefficients"
+      ],
+      "notes": "The ministry says no subject is removed entirely from the secondary pathway; some content is redistributed across secondary years. Year one common trunks continue. BAC exam subjects remain those programmed in year three. The same notice specifies computer science in third year for the Mathematics and Engineering streams. It separately announces the branch-based secondary structure and a new Informatics stream for 2027-2028, not for 2026-2027."
+    },
+    {
+      "id": "ministry-2026-08-01-informatics-streams",
+      "title": "National meeting on preparations for 2026-2027 school year",
+      "url": "https://www.education.gov.dz/2026/08/01/وزير-التربية-الوطنية-يترأس-ندوة-وطنية-مرئية-مع-مديري-التربية-لمتابعة-التحضيرات-للدخول-المدرسي/",
+      "publisher": "Ministry of National Education, Algeria",
+      "published": "2026-08-01",
+      "status": "current_policy_notice",
+      "covers": [
+        "secondary"
+      ],
+      "validates": [
+        "informatics_added_in_some_streams_year_2_and_3"
+      ],
+      "does_not_validate": [
+        "which_exact_streams",
+        "lesson_sequence",
+        "hours",
+        "coefficients"
+      ],
+      "notes": "Confirms computer science in some streams in years two and three, without naming the exact streams in the accessible notice. The app must not infer them."
+    },
+    {
+      "id": "ministry-decision-36-2026-09-09",
+      "title": "Decision No. 36 of 9 September 2026 rescinding Decision No. 20 on secondary timetables and coefficients",
+      "url": "https://www.education.gov.dz/2026/09/10/قرار-رقم-36-مؤرخ-في-27-ربيع-الأول-عام-1448-الموافق-9-سبتمبر-سنة-2026-يتضمن-إلغاء-القرار-رقم-20-المؤرخ-في-13-صفر-عام-1448-الموافق-28-جويلية-سنة-2026-المتضمن-المواقيت-والمعاملات-لمرحلة-التعليم-الثانوي-العام-والتكنولوجي/",
+      "publisher": "Ministry of National Education, Algeria",
+      "published": "2026-09-10",
+      "status": "current_regulatory_notice",
+      "covers": [
+        "secondary"
+      ],
+      "validates": [
+        "decision_20_rescinded"
+      ],
+      "does_not_validate": [
+        "replacement_coefficients",
+        "current_timetables"
+      ],
+      "notes": "Do not use Decision No. 20 as current authority for secondary timetables or coefficients; this notice rescinds it."
+    },
+    {
+      "id": "ministry-historical-annual-progression-1as-physics",
+      "title": "Historical annual progression PDF: first-year secondary physics",
+      "url": "https://education.gov.dz/wp-content/uploads/2015/04/1-AS-TCSE-ph.pdf",
+      "publisher": "Ministry of National Education, Algeria",
+      "published": "historical_document_date_unconfirmed",
+      "status": "historical_reference_requires_2026_2027_confirmation",
+      "covers": [
+        "secondary"
+      ],
+      "validates": [],
+      "does_not_validate": [
+        "2026_2027_current_lesson_sequence"
+      ],
+      "notes": "Useful only to discover historical structure and terminology; not proof of the 2026-2027 progression."
+    },
+    {
+      "id": "ministry-historical-history-programme-3as",
+      "title": "Historical programme PDF: third-year secondary history",
+      "url": "https://education.gov.dz/wp-content/uploads/2015/04/Programme-Histoire-3-As-Aout2012.pdf",
+      "publisher": "Ministry of National Education, Algeria",
+      "published": "2012-08",
+      "status": "historical_reference_requires_2026_2027_confirmation",
+      "covers": [
+        "secondary"
+      ],
+      "validates": [],
+      "does_not_validate": [
+        "2026_2027_current_lesson_sequence",
+        "current_stream_matrix"
+      ],
+      "notes": "Historical programme; never use as a current 2026-2027 lesson or stream authority without a current confirmation."
+    }
+  ],
+  "mapping_policy": "Verified policy facts must not be generalized into lesson-level verification. No current-year full annual progression PDF was confirmed for all grades/subjects during this build. 105 platform grade-subject maps and 16 secondary pathway matrices remain provisional."
+}

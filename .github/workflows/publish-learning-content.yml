@@ -1,0 +1,90 @@
+name: Publish SM education learning content
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'web/data/ai-course-updates.json'
+      - 'web/data/tasnim-index.json'
+      - 'web/exams/**'
+      - 'tools/fetch_tasnim.py'
+      - '.github/workflows/publish-learning-content.yml'
+  schedule:
+    - cron: '20 2 * * 1'
+  workflow_dispatch:
+    inputs:
+      grades:
+        description: 'Arabic grade label(s), comma separated (empty = every grade). Sent by the in-app Tasnim sync button.'
+        required: false
+        default: ''
+        type: string
+      content:
+        description: 'What to fetch'
+        required: false
+        default: 'all'
+        type: choice
+        options: [all, exams, lessons]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: sm-education-content-pages
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - name: Check out project and previous library
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Refresh licensed Tasnim library politely
+        env:
+          FETCH_GRADES: ${{ github.event.inputs.grades }}
+          FETCH_CONTENT: ${{ github.event.inputs.content || 'all' }}
+        run: |
+          # Stop cleanly after 300 min (exit 124 is accepted) so the partial sync is still saved and published.
+          # Inputs come from env vars (never interpolated into the script) so a label cannot inject shell code.
+          case "$FETCH_CONTENT" in all|exams|lessons) ;; *) FETCH_CONTENT=all ;; esac
+          ARGS=()
+          if [ -n "$FETCH_GRADES" ]; then ARGS+=(--grades "$FETCH_GRADES"); fi
+          timeout 300m python tools/fetch_tasnim.py --confirm-permission --content "$FETCH_CONTENT" --include-word --delay 2.0 --max-per-grade 400 --max-mb 25 "${ARGS[@]}" || [ $? -eq 124 ]
+
+      - name: Save refreshed Tasnim index and licensed files
+        if: always()
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore(content): refresh licensed Tasnim library'
+          file_pattern: 'web/data/tasnim-index.json web/exams/** imports/tasnim_state.json imports/review/tasnim-fetch-failures.json'
+
+      - name: Check published site size
+        run: |
+          SIZE_MB=$(du -sm web | cut -f1)
+          echo "Website payload: ${SIZE_MB} MB"
+          if [ "$SIZE_MB" -gt 900 ]; then
+            echo "Refusing to publish: website payload exceeds the 900 MB safety limit."
+            exit 1
+          fi
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload app content and documents to Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: web
+
+      - name: Deploy HTTPS content feed
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,1 @@
+const fs=require('fs'),vm=require('vm'),assert=require('assert');const code=fs.readFileSync('web/labs-v1-16.js','utf8');assert.doesNotThrow(()=>new vm.Script(code));for(const id of ['percent','speed','ohm','density'])assert(code.includes(`id:'${id}'`));assert(code.includes('aria-live=\"polite\"'));console.log('v1.16.0 interactive labs tests: PASS');

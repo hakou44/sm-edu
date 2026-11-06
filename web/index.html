@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#102a43"><meta name="description" content="SM éducation — المنصة التعليمية الذكية الجزائرية">
+  <link rel="icon" type="image/png" href="icons/favicon.png"><link rel="apple-touch-icon" href="icons/apple-touch-icon.png"><link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="styles.css">
+  <title>SM éducation</title>
+</head>
+<body>
+  <a class="skip-link" href="#pageContent">تجاوز إلى المحتوى</a>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand"><div class="brand-mark">SM</div><div><strong>SM éducation</strong><small data-i18n="tagline">نتعلّم بذكاء، نتقدّم بثقة</small></div></div>
+      <div class="profile-mini"><div class="avatar">✦</div><div><b data-i18n="student">التلميذ</b><small id="levelSummary">السنة الأولى متوسط</small></div></div>
+      <nav id="mainNav" aria-label="Main navigation">
+        <button class="nav-item active" data-page="home"><span>⌂</span><span data-i18n="home">الرئيسية</span></button>
+        <button class="nav-item" data-page="homeschool"><span>🏠</span><span data-i18n="homeschool">المدرسة المنزلية</span></button>
+        <button class="nav-item" data-page="studycenter"><span>🎯</span><span>مركز التعلّم المنزلي</span></button>
+        <button class="nav-item" data-page="progress"><span>▥</span><span data-i18n="progress">تقدمي الدراسي</span></button>
+        <button class="nav-item" data-page="library"><span>▤</span><span data-i18n="books">الكتب المدرسية</span></button>
+        <button class="nav-item" data-page="exercises"><span>✎</span><span data-i18n="exercises">بنك التمارين</span></button>
+        <button class="nav-item" data-page="tests"><span>▣</span><span data-i18n="tests">بنك الاختبارات</span></button>
+        <button class="nav-item" data-page="tutor"><span>✧</span><span data-i18n="ai">المساعد الذكي</span></button>
+        <button class="nav-item" data-page="teacher"><span>🎓</span><span>المعلم الذكي</span></button>
+        <button class="nav-item" data-page="videos"><span>▷</span><span data-i18n="videos">فيديوهات الشرح</span></button>
+        <button class="nav-item" data-page="certificates"><span>☆</span><span data-i18n="certificates">فضاء الشهادات</span></button>
+        <button class="nav-item" data-page="computing"><span>⌘</span><span data-i18n="computing">الذكاء الاصطناعي والحوسبة</span></button>
+        <button class="nav-item" data-page="translate"><span>🌐</span><span data-i18n="translate">المترجم الذكي</span></button>
+        <button class="nav-item" data-page="parents"><span>♧</span><span data-i18n="parents">فضاء الأولياء</span></button>
+      </nav>
+      <div class="sidebar-bottom"><span class="status-dot"></span><span data-i18n="offlineReady">جاهز للتعلم دون اتصال للمحتوى المحمّل</span></div>
+    </aside>
+    <main class="main-content">
+      <header class="topbar"><button class="icon-btn mobile-menu" id="menuBtn" aria-label="Menu">☰</button><button class="icon-btn app-back-btn" id="backBtn" type="button" aria-label="رجوع" title="رجوع">↶</button><div><span class="eyebrow" data-i18n="platform">المنصة التعليمية الجزائرية</span><h1 id="pageTitle" data-i18n="welcome">مرحباً بك في عالم التعلّم</h1></div><div class="top-actions"><select id="languageSelect" aria-label="Language"><option value="ar">العربية</option><option value="fr">Français</option><option value="en">English</option></select><button class="icon-btn" id="themeBtn" type="button" title="تبديل الإضاءة" aria-label="Toggle theme">☾</button><button class="icon-btn" title="الإشعارات">♧</button><div class="avatar small-avatar">S</div></div></header>
+      <div class="grade-bar" id="gradeBar"></div>
+      <section id="pageContent" class="page-content"></section>
+      <footer><span>© 2026 SM éducation</span><span data-i18n="footer">منصة تعليمية مستقلة للمنهاج الجزائري</span><span>v2.1.6</span></footer>
+    </main>
+  </div>
+  <nav class="bottom-nav" id="bottomNav" aria-label="Quick navigation">
+    <button class="bn-item active" data-page="home"><span>⌂</span><small data-i18n="home">الرئيسية</small></button>
+    <button class="bn-item" data-page="exercises"><span>✎</span><small data-i18n="exercises">بنك التمارين</small></button>
+    <button class="bn-item" data-page="tests"><span>▣</span><small data-i18n="tests">بنك الاختبارات</small></button>
+    <button class="bn-item" data-page="tutor"><span>✧</span><small data-i18n="ai">المساعد الذكي</small></button>
+    <button class="bn-item" data-page="progress"><span>▥</span><small data-i18n="progress">تقدمي الدراسي</small></button>
+  </nav>
+  <div id="toast" class="toast" role="status"></div>
+  <script src="config.js"></script>
+  <script src="lexicon.js"></script>
+  <script src="app.js"></script>
+  <script src="download-center.js"></script>
+  <script src="lessons-extra.js"></script>
+  <script src="translate.js"></script>
+  <script src="ai-course-i18n.js"></script>
+  <script src="ai-course.js"></script>
+  <script src="ai-course-sync.js"></script>
+  <script src="family-planner.js"></script>
+  <script src="home-school.js"></script>
+  <script src="learning-diagnostics.js"></script>
+  <script src="student-profile.js"></script>
+  <script src="learning-memory.js"></script>
+  <script src="family-dashboard.js"></script>
+  <script src="parent-account.js"></script>
+  <script src="smart-teacher.js"></script>
+  <script src="study-center.js"></script>
+  <script src="curriculum-progress.js"></script>
+  <script src="labs-v1-16.js"></script>
+  <script src="exam-timer-v1-17.js"></script>
+  <script src="weekly-planner-v1-18.js"></script>
+  <script src="lesson-planner-v1-18-2.js"></script>
+  <script src="offline-tutor.js"></script>
+  <script src="groq-direct.js"></script>
+  <script src="shell-fixes.js"></script>
+  <script src="tasnim-links.js"></script>
+  <script src="ux-v1-19.js"></script>
+  <script src="v2-pro.js"></script>
+  <script src="tasnim-library.js"></script>
+  <script src="platform-enhancements.js"></script>
+  <script src="grade-switcher.js"></script>
+  <script src="home-v2.js"></script>
+<script>(function(){const sync=()=>document.querySelectorAll(".bn-item").forEach(b=>b.classList.toggle("active",b.dataset.page===page));document.querySelectorAll(".bn-item").forEach(b=>b.addEventListener("click",()=>go(b.dataset.page)));const og=go;go=function(p,f){og(p,f);sync()};sync()})();document.getElementById("backBtn")?.addEventListener("click",()=>{if(typeof handleAppBack==="function")handleAppBack()});</script>
+</body></html>

@@ -1,0 +1,26 @@
+{
+  "name": "sm-edu",
+  "version": "2.1.6",
+  "private": true,
+  "description": "SM éducation — plateforme éducative algérienne",
+  "scripts": {
+    "test": "python tools/audit_curriculum_v1_14.py && node tests/curriculum_integrity_v1_14_test.js && node tests/smoke_test.js && node tests/v2_1_2_features_test.js && node tests/navigation_routes_test.js && node tests/study_streak_test.js && node tests/adaptive_logic_test.js && node tests/adaptive_intelligence_test.js && node tests/family_planner_test.js && node tests/home_school_test.js && node tests/parent_weekly_test.js && node tests/lessons_extra_test.js && node tests/offline_tutor_test.js && python tests/curriculum_api_test.py && python tests/pdf_candidate_api_test.py && python tests/tutor_api_test.py && python tests/release_integrity_test.py && python tests/parent_auth_test.py && python tests/parent_sync_test.py && node tests/parent_sync_ui_test.js && node tests/learning_diagnostics_test.js && node tests/smart_teacher_test.js && node tests/educational_intelligence_test.js && node tests/student_profile_test.js && node tests/family_dashboard_test.js && node tests/parent_account_ui_test.js && node tests/local_backup_transaction_test.js && node tests/reasoning_coach_test.js && node tests/reasoning_backup_test.js && node tests/learning_memory_test.js && node tests/depth_pack_test.js && python tests/depth_pack_tool_test.py && node tests/dedupe_test.js && python tests/dedupe_tool_test.py && node tests/quality_v1_12_test.js && node tests/study_center_test.js && node tests/curriculum_progress_v1_15_test.js && node tests/labs_v1_16_test.js && node tests/exam_timer_v1_17_test.js && node tests/weekly_planner_v1_18_test.js && node tests/pedagogical_cycle_v1_18_1_test.js && node tests/lesson_planner_v1_18_2_test.js && node tests/groq_direct_test.js && node tests/v2_pro_test.js && node tests/platform_enhancements_test.js && python tests/tasnim_fetch_test.py && node tests/tasnim_library_test.js && node tests/v2_1_3_content_sync_test.js && node tests/v2_1_6_tasnim_sync_test.js",
+    "serve": "python -m http.server 8080 --directory web",
+    "android:sync": "npx cap sync android",
+    "android:open": "npx cap open android",
+    "android:build:debug": "cd android && gradlew assembleDebug",
+    "sync:exam-library": "python tools/sync_external_exam_library.py",
+    "build:depth-pack": "python tools/build_v1_10_depth_pack.py",
+    "build:dedupe": "python tools/build_v1_11_dedupe.py",
+    "build:quality": "python tools/build_v1_12_quality.py",
+    "audit:curriculum": "python tools/audit_curriculum_v1_14.py"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.3",
+    "@capacitor/app": "^7.0.0",
+    "@capacitor/core": "^7.4.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.3"
+  }
+}

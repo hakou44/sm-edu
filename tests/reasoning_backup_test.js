@@ -1,0 +1,15 @@
+const fs=require('fs'),vm=require('vm'),assert=require('assert');
+const source=fs.readFileSync(__dirname+'/../web/app.js','utf8');
+const start=source.indexOf('function validateLocalBackup('),end=source.indexOf('\nfunction ',start+10);
+assert(start>=0&&end>start,'backup validator must exist');
+const fn=source.slice(start,end);
+const keys=['smSchoolReasoningRecords'];
+const ctx={LOCAL_BACKUP_VERSION:1,LOCAL_BACKUP_KEYS:keys,Array,Object,Set,Number,String,JSON};
+vm.createContext(ctx);vm.runInContext(fn+';this.validate=validateLocalBackup;',ctx);
+const good={app:'SM SCHOOL AI',backup_version:1,data:{smSchoolReasoningRecords:JSON.stringify([{learnerId:'kid-1',subject:'Math',question:'2+2?',studentAnswer:'4',correctAnswer:'4',reasoning:'2 plus 2 is 4',isCorrect:true}])}};
+assert.equal(ctx.validate(good),true);
+const tooLong={...good,data:{smSchoolReasoningRecords:JSON.stringify(Array.from({length:501},()=>({learnerId:'kid-1',subject:'Math',question:'q',studentAnswer:'a',correctAnswer:'a',reasoning:'r',isCorrect:true})))}};
+assert.equal(ctx.validate(tooLong),false);
+const malformed={...good,data:{smSchoolReasoningRecords:JSON.stringify([{learnerId:'kid-1',reasoning:'r'}])}};
+assert.equal(ctx.validate(malformed),false);
+console.log('PASS: reasoning journal backup validation, record bounds and malformed-record rejection');

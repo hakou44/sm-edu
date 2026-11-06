@@ -1,0 +1,6 @@
+const fs=require('fs'),vm=require('vm'),assert=require('assert');
+const store={};const els={scTaskTitle:{value:'واجب رياضيات'},scTaskSubject:{value:'الرياضيات'},scTaskDue:{value:'2026-11-06'},scQuestion:{value:'ما ناتج 2+2؟'},scAnswer:{value:'4'},scGoal:{value:'45'}};
+const mount={innerHTML:''};const ctx={localStorage:{getItem:k=>store[k]??null,setItem:(k,v)=>store[k]=v},document:{getElementById:id=>id==='pageContent'?mount:(els[id]||null)},Date,alert:()=>{},console};ctx.window=ctx;vm.createContext(ctx);vm.runInContext(fs.readFileSync('web/study-center.js','utf8'),ctx);
+ctx.studyCenterAddTask();assert.equal(JSON.parse(store.smSchoolStudyCenterV113).tasks.length,1);const id=JSON.parse(store.smSchoolStudyCenterV113).tasks[0].id;ctx.studyCenterToggle(id);assert.equal(JSON.parse(store.smSchoolStudyCenterV113).tasks[0].done,true);
+ctx.studyCenterAddCard();assert.equal(JSON.parse(store.smSchoolStudyCenterV113).cards.length,1);ctx.studyCenterSetGoal();assert.equal(JSON.parse(store.smSchoolStudyCenterV113).goals[0].minutes,45);
+ctx.studyCenterRender();assert(mount.innerHTML.includes('مركز التعلّم المنزلي'));assert(mount.innerHTML.includes('واجب رياضيات'));console.log('study centre tests passed');

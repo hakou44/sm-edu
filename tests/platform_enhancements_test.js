@@ -1,0 +1,12 @@
+const fs=require('fs'),assert=require('assert');
+const index=fs.readFileSync('web/index.html','utf8');
+const css=fs.readFileSync('web/styles.css','utf8');
+const sw=fs.readFileSync('web/sw.js','utf8');
+const runtime=fs.readFileSync('web/platform-enhancements.js','utf8');
+assert(index.includes('class="skip-link"'),'skip link missing');
+assert(index.includes('src="platform-enhancements.js"'),'runtime module not loaded');
+assert(sw.includes('./platform-enhancements.js'),'runtime module not precached');
+assert(sw.includes("e.request.mode==='navigate'"),'offline fallback is not navigation-only');
+assert(runtime.includes("addEventListener('online'")&&runtime.includes("addEventListener('offline'"),'network events not handled');
+assert(css.includes('prefers-reduced-motion')&&css.includes('connection-status'),'responsive accessibility styles missing');
+console.log('PASS: v2.1.3 runtime status, offline fallback, keyboard access and responsive accessibility');

@@ -1,0 +1,485 @@
+﻿record_type,record_id,stage,grade,pathway_id,subject_or_candidate,term,official_document_title,official_document_url,page_number,unit,lesson,competency,source_publication_date,reviewer_role,reviewer_name,verified_at,verification_status,notes
+grade_subject_term,primary-1-1,primary,الأولى ابتدائي,,اللغة العربية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-1-1,primary,الأولى ابتدائي,,اللغة العربية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-1-1,primary,الأولى ابتدائي,,اللغة العربية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-1-2,primary,الأولى ابتدائي,,الرياضيات,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-1-2,primary,الأولى ابتدائي,,الرياضيات,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-1-2,primary,الأولى ابتدائي,,الرياضيات,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-1-3,primary,الأولى ابتدائي,,التربية الإسلامية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-1-3,primary,الأولى ابتدائي,,التربية الإسلامية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-1-3,primary,الأولى ابتدائي,,التربية الإسلامية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-1-4,primary,الأولى ابتدائي,,التربية العلمية والتكنولوجية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-1-4,primary,الأولى ابتدائي,,التربية العلمية والتكنولوجية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-1-4,primary,الأولى ابتدائي,,التربية العلمية والتكنولوجية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-1-5,primary,الأولى ابتدائي,,التاريخ والجغرافيا,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-1-5,primary,الأولى ابتدائي,,التاريخ والجغرافيا,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-1-5,primary,الأولى ابتدائي,,التاريخ والجغرافيا,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-1-6,primary,الأولى ابتدائي,,التربية المدنية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-1-6,primary,الأولى ابتدائي,,التربية المدنية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-1-6,primary,الأولى ابتدائي,,التربية المدنية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-2-1,primary,الثانية ابتدائي,,اللغة العربية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-2-1,primary,الثانية ابتدائي,,اللغة العربية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-2-1,primary,الثانية ابتدائي,,اللغة العربية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-2-2,primary,الثانية ابتدائي,,الرياضيات,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-2-2,primary,الثانية ابتدائي,,الرياضيات,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-2-2,primary,الثانية ابتدائي,,الرياضيات,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-2-3,primary,الثانية ابتدائي,,التربية الإسلامية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-2-3,primary,الثانية ابتدائي,,التربية الإسلامية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-2-3,primary,الثانية ابتدائي,,التربية الإسلامية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-2-4,primary,الثانية ابتدائي,,التربية العلمية والتكنولوجية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-2-4,primary,الثانية ابتدائي,,التربية العلمية والتكنولوجية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-2-4,primary,الثانية ابتدائي,,التربية العلمية والتكنولوجية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-2-5,primary,الثانية ابتدائي,,التاريخ والجغرافيا,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-2-5,primary,الثانية ابتدائي,,التاريخ والجغرافيا,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-2-5,primary,الثانية ابتدائي,,التاريخ والجغرافيا,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-2-6,primary,الثانية ابتدائي,,التربية المدنية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-2-6,primary,الثانية ابتدائي,,التربية المدنية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-2-6,primary,الثانية ابتدائي,,التربية المدنية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-3-1,primary,الثالثة ابتدائي,,اللغة العربية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-3-1,primary,الثالثة ابتدائي,,اللغة العربية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-3-1,primary,الثالثة ابتدائي,,اللغة العربية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-3-2,primary,الثالثة ابتدائي,,الرياضيات,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-3-2,primary,الثالثة ابتدائي,,الرياضيات,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-3-2,primary,الثالثة ابتدائي,,الرياضيات,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-3-3,primary,الثالثة ابتدائي,,التربية الإسلامية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-3-3,primary,الثالثة ابتدائي,,التربية الإسلامية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-3-3,primary,الثالثة ابتدائي,,التربية الإسلامية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-3-4,primary,الثالثة ابتدائي,,التربية العلمية والتكنولوجية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-3-4,primary,الثالثة ابتدائي,,التربية العلمية والتكنولوجية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-3-4,primary,الثالثة ابتدائي,,التربية العلمية والتكنولوجية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-3-5,primary,الثالثة ابتدائي,,التاريخ والجغرافيا,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-3-5,primary,الثالثة ابتدائي,,التاريخ والجغرافيا,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-3-5,primary,الثالثة ابتدائي,,التاريخ والجغرافيا,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-3-6,primary,الثالثة ابتدائي,,التربية المدنية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-3-6,primary,الثالثة ابتدائي,,التربية المدنية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-3-6,primary,الثالثة ابتدائي,,التربية المدنية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-3-7,primary,الثالثة ابتدائي,,اللغة الإنجليزية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-3-7,primary,الثالثة ابتدائي,,اللغة الإنجليزية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-3-7,primary,الثالثة ابتدائي,,اللغة الإنجليزية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-4-1,primary,الرابعة ابتدائي,,اللغة العربية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-4-1,primary,الرابعة ابتدائي,,اللغة العربية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-4-1,primary,الرابعة ابتدائي,,اللغة العربية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-4-2,primary,الرابعة ابتدائي,,الرياضيات,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-4-2,primary,الرابعة ابتدائي,,الرياضيات,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-4-2,primary,الرابعة ابتدائي,,الرياضيات,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-4-3,primary,الرابعة ابتدائي,,التربية الإسلامية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-4-3,primary,الرابعة ابتدائي,,التربية الإسلامية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-4-3,primary,الرابعة ابتدائي,,التربية الإسلامية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-4-4,primary,الرابعة ابتدائي,,التربية العلمية والتكنولوجية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-4-4,primary,الرابعة ابتدائي,,التربية العلمية والتكنولوجية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-4-4,primary,الرابعة ابتدائي,,التربية العلمية والتكنولوجية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-4-5,primary,الرابعة ابتدائي,,التاريخ والجغرافيا,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-4-5,primary,الرابعة ابتدائي,,التاريخ والجغرافيا,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-4-5,primary,الرابعة ابتدائي,,التاريخ والجغرافيا,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-4-6,primary,الرابعة ابتدائي,,التربية المدنية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-4-6,primary,الرابعة ابتدائي,,التربية المدنية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-4-6,primary,الرابعة ابتدائي,,التربية المدنية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-4-7,primary,الرابعة ابتدائي,,اللغة الإنجليزية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-4-7,primary,الرابعة ابتدائي,,اللغة الإنجليزية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-4-7,primary,الرابعة ابتدائي,,اللغة الإنجليزية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-4-8,primary,الرابعة ابتدائي,,اللغة الفرنسية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-4-8,primary,الرابعة ابتدائي,,اللغة الفرنسية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-4-8,primary,الرابعة ابتدائي,,اللغة الفرنسية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-5-1,primary,الخامسة ابتدائي,,اللغة العربية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-5-1,primary,الخامسة ابتدائي,,اللغة العربية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-5-1,primary,الخامسة ابتدائي,,اللغة العربية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-5-2,primary,الخامسة ابتدائي,,الرياضيات,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-5-2,primary,الخامسة ابتدائي,,الرياضيات,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-5-2,primary,الخامسة ابتدائي,,الرياضيات,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-5-3,primary,الخامسة ابتدائي,,التربية الإسلامية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-5-3,primary,الخامسة ابتدائي,,التربية الإسلامية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-5-3,primary,الخامسة ابتدائي,,التربية الإسلامية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-5-4,primary,الخامسة ابتدائي,,التربية العلمية والتكنولوجية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-5-4,primary,الخامسة ابتدائي,,التربية العلمية والتكنولوجية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-5-4,primary,الخامسة ابتدائي,,التربية العلمية والتكنولوجية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-5-5,primary,الخامسة ابتدائي,,التاريخ والجغرافيا,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-5-5,primary,الخامسة ابتدائي,,التاريخ والجغرافيا,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-5-5,primary,الخامسة ابتدائي,,التاريخ والجغرافيا,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-5-6,primary,الخامسة ابتدائي,,التربية المدنية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-5-6,primary,الخامسة ابتدائي,,التربية المدنية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-5-6,primary,الخامسة ابتدائي,,التربية المدنية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-5-7,primary,الخامسة ابتدائي,,اللغة الإنجليزية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-5-7,primary,الخامسة ابتدائي,,اللغة الإنجليزية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-5-7,primary,الخامسة ابتدائي,,اللغة الإنجليزية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-5-8,primary,الخامسة ابتدائي,,اللغة الفرنسية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-5-8,primary,الخامسة ابتدائي,,اللغة الفرنسية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,primary-5-8,primary,الخامسة ابتدائي,,اللغة الفرنسية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-1-1,middle,الأولى متوسط,,اللغة العربية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-1-1,middle,الأولى متوسط,,اللغة العربية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-1-1,middle,الأولى متوسط,,اللغة العربية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-1-2,middle,الأولى متوسط,,الرياضيات,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-1-2,middle,الأولى متوسط,,الرياضيات,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-1-2,middle,الأولى متوسط,,الرياضيات,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-1-3,middle,الأولى متوسط,,اللغة الفرنسية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-1-3,middle,الأولى متوسط,,اللغة الفرنسية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-1-3,middle,الأولى متوسط,,اللغة الفرنسية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-1-4,middle,الأولى متوسط,,اللغة الإنجليزية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-1-4,middle,الأولى متوسط,,اللغة الإنجليزية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-1-4,middle,الأولى متوسط,,اللغة الإنجليزية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-1-5,middle,الأولى متوسط,,العلوم الطبيعية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-1-5,middle,الأولى متوسط,,العلوم الطبيعية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-1-5,middle,الأولى متوسط,,العلوم الطبيعية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-1-6,middle,الأولى متوسط,,العلوم الفيزيائية والتكنولوجيا,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-1-6,middle,الأولى متوسط,,العلوم الفيزيائية والتكنولوجيا,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-1-6,middle,الأولى متوسط,,العلوم الفيزيائية والتكنولوجيا,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-1-7,middle,الأولى متوسط,,التاريخ والجغرافيا,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-1-7,middle,الأولى متوسط,,التاريخ والجغرافيا,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-1-7,middle,الأولى متوسط,,التاريخ والجغرافيا,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-1-8,middle,الأولى متوسط,,التربية الإسلامية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-1-8,middle,الأولى متوسط,,التربية الإسلامية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-1-8,middle,الأولى متوسط,,التربية الإسلامية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-1-9,middle,الأولى متوسط,,التربية المدنية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-1-9,middle,الأولى متوسط,,التربية المدنية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-1-9,middle,الأولى متوسط,,التربية المدنية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-1-10,middle,الأولى متوسط,,الإعلام الآلي,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-1-10,middle,الأولى متوسط,,الإعلام الآلي,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-1-10,middle,الأولى متوسط,,الإعلام الآلي,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-2-1,middle,الثانية متوسط,,اللغة العربية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-2-1,middle,الثانية متوسط,,اللغة العربية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-2-1,middle,الثانية متوسط,,اللغة العربية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-2-2,middle,الثانية متوسط,,الرياضيات,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-2-2,middle,الثانية متوسط,,الرياضيات,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-2-2,middle,الثانية متوسط,,الرياضيات,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-2-3,middle,الثانية متوسط,,اللغة الفرنسية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-2-3,middle,الثانية متوسط,,اللغة الفرنسية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-2-3,middle,الثانية متوسط,,اللغة الفرنسية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-2-4,middle,الثانية متوسط,,اللغة الإنجليزية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-2-4,middle,الثانية متوسط,,اللغة الإنجليزية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-2-4,middle,الثانية متوسط,,اللغة الإنجليزية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-2-5,middle,الثانية متوسط,,العلوم الطبيعية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-2-5,middle,الثانية متوسط,,العلوم الطبيعية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-2-5,middle,الثانية متوسط,,العلوم الطبيعية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-2-6,middle,الثانية متوسط,,العلوم الفيزيائية والتكنولوجيا,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-2-6,middle,الثانية متوسط,,العلوم الفيزيائية والتكنولوجيا,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-2-6,middle,الثانية متوسط,,العلوم الفيزيائية والتكنولوجيا,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-2-7,middle,الثانية متوسط,,التاريخ والجغرافيا,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-2-7,middle,الثانية متوسط,,التاريخ والجغرافيا,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-2-7,middle,الثانية متوسط,,التاريخ والجغرافيا,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-2-8,middle,الثانية متوسط,,التربية الإسلامية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-2-8,middle,الثانية متوسط,,التربية الإسلامية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-2-8,middle,الثانية متوسط,,التربية الإسلامية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-2-9,middle,الثانية متوسط,,التربية المدنية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-2-9,middle,الثانية متوسط,,التربية المدنية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-2-9,middle,الثانية متوسط,,التربية المدنية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-2-10,middle,الثانية متوسط,,الإعلام الآلي,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-2-10,middle,الثانية متوسط,,الإعلام الآلي,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-2-10,middle,الثانية متوسط,,الإعلام الآلي,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-3-1,middle,الثالثة متوسط,,اللغة العربية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-3-1,middle,الثالثة متوسط,,اللغة العربية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-3-1,middle,الثالثة متوسط,,اللغة العربية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-3-2,middle,الثالثة متوسط,,الرياضيات,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-3-2,middle,الثالثة متوسط,,الرياضيات,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-3-2,middle,الثالثة متوسط,,الرياضيات,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-3-3,middle,الثالثة متوسط,,اللغة الفرنسية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-3-3,middle,الثالثة متوسط,,اللغة الفرنسية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-3-3,middle,الثالثة متوسط,,اللغة الفرنسية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-3-4,middle,الثالثة متوسط,,اللغة الإنجليزية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-3-4,middle,الثالثة متوسط,,اللغة الإنجليزية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-3-4,middle,الثالثة متوسط,,اللغة الإنجليزية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-3-5,middle,الثالثة متوسط,,العلوم الطبيعية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-3-5,middle,الثالثة متوسط,,العلوم الطبيعية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-3-5,middle,الثالثة متوسط,,العلوم الطبيعية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-3-6,middle,الثالثة متوسط,,العلوم الفيزيائية والتكنولوجيا,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-3-6,middle,الثالثة متوسط,,العلوم الفيزيائية والتكنولوجيا,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-3-6,middle,الثالثة متوسط,,العلوم الفيزيائية والتكنولوجيا,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-3-7,middle,الثالثة متوسط,,التاريخ والجغرافيا,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-3-7,middle,الثالثة متوسط,,التاريخ والجغرافيا,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-3-7,middle,الثالثة متوسط,,التاريخ والجغرافيا,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-3-8,middle,الثالثة متوسط,,التربية الإسلامية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-3-8,middle,الثالثة متوسط,,التربية الإسلامية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-3-8,middle,الثالثة متوسط,,التربية الإسلامية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-3-9,middle,الثالثة متوسط,,التربية المدنية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-3-9,middle,الثالثة متوسط,,التربية المدنية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-3-9,middle,الثالثة متوسط,,التربية المدنية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-3-10,middle,الثالثة متوسط,,الإعلام الآلي,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-3-10,middle,الثالثة متوسط,,الإعلام الآلي,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-3-10,middle,الثالثة متوسط,,الإعلام الآلي,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-4-1,middle,الرابعة متوسط,,اللغة العربية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-4-1,middle,الرابعة متوسط,,اللغة العربية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-4-1,middle,الرابعة متوسط,,اللغة العربية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-4-2,middle,الرابعة متوسط,,الرياضيات,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-4-2,middle,الرابعة متوسط,,الرياضيات,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-4-2,middle,الرابعة متوسط,,الرياضيات,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-4-3,middle,الرابعة متوسط,,اللغة الفرنسية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-4-3,middle,الرابعة متوسط,,اللغة الفرنسية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-4-3,middle,الرابعة متوسط,,اللغة الفرنسية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-4-4,middle,الرابعة متوسط,,اللغة الإنجليزية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-4-4,middle,الرابعة متوسط,,اللغة الإنجليزية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-4-4,middle,الرابعة متوسط,,اللغة الإنجليزية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-4-5,middle,الرابعة متوسط,,العلوم الطبيعية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-4-5,middle,الرابعة متوسط,,العلوم الطبيعية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-4-5,middle,الرابعة متوسط,,العلوم الطبيعية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-4-6,middle,الرابعة متوسط,,العلوم الفيزيائية والتكنولوجيا,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-4-6,middle,الرابعة متوسط,,العلوم الفيزيائية والتكنولوجيا,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-4-6,middle,الرابعة متوسط,,العلوم الفيزيائية والتكنولوجيا,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-4-7,middle,الرابعة متوسط,,التاريخ والجغرافيا,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-4-7,middle,الرابعة متوسط,,التاريخ والجغرافيا,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-4-7,middle,الرابعة متوسط,,التاريخ والجغرافيا,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-4-8,middle,الرابعة متوسط,,التربية الإسلامية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-4-8,middle,الرابعة متوسط,,التربية الإسلامية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-4-8,middle,الرابعة متوسط,,التربية الإسلامية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-4-9,middle,الرابعة متوسط,,التربية المدنية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-4-9,middle,الرابعة متوسط,,التربية المدنية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-4-9,middle,الرابعة متوسط,,التربية المدنية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-4-10,middle,الرابعة متوسط,,الإعلام الآلي,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-4-10,middle,الرابعة متوسط,,الإعلام الآلي,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,middle-4-10,middle,الرابعة متوسط,,الإعلام الآلي,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-1-1,secondary,الأولى ثانوي,,اللغة العربية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-1-1,secondary,الأولى ثانوي,,اللغة العربية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-1-1,secondary,الأولى ثانوي,,اللغة العربية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-1-2,secondary,الأولى ثانوي,,الرياضيات,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-1-2,secondary,الأولى ثانوي,,الرياضيات,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-1-2,secondary,الأولى ثانوي,,الرياضيات,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-1-3,secondary,الأولى ثانوي,,اللغة الفرنسية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-1-3,secondary,الأولى ثانوي,,اللغة الفرنسية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-1-3,secondary,الأولى ثانوي,,اللغة الفرنسية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-1-4,secondary,الأولى ثانوي,,اللغة الإنجليزية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-1-4,secondary,الأولى ثانوي,,اللغة الإنجليزية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-1-4,secondary,الأولى ثانوي,,اللغة الإنجليزية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-1-5,secondary,الأولى ثانوي,,العلوم الطبيعية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-1-5,secondary,الأولى ثانوي,,العلوم الطبيعية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-1-5,secondary,الأولى ثانوي,,العلوم الطبيعية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-1-6,secondary,الأولى ثانوي,,العلوم الفيزيائية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-1-6,secondary,الأولى ثانوي,,العلوم الفيزيائية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-1-6,secondary,الأولى ثانوي,,العلوم الفيزيائية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-1-7,secondary,الأولى ثانوي,,التاريخ والجغرافيا,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-1-7,secondary,الأولى ثانوي,,التاريخ والجغرافيا,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-1-7,secondary,الأولى ثانوي,,التاريخ والجغرافيا,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-1-8,secondary,الأولى ثانوي,,الفلسفة,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-1-8,secondary,الأولى ثانوي,,الفلسفة,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-1-8,secondary,الأولى ثانوي,,الفلسفة,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-1-9,secondary,الأولى ثانوي,,العلوم الإسلامية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-1-9,secondary,الأولى ثانوي,,العلوم الإسلامية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-1-9,secondary,الأولى ثانوي,,العلوم الإسلامية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-1-10,secondary,الأولى ثانوي,,الإعلام الآلي,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-1-10,secondary,الأولى ثانوي,,الإعلام الآلي,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-1-10,secondary,الأولى ثانوي,,الإعلام الآلي,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-2-1,secondary,الثانية ثانوي,,اللغة العربية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-2-1,secondary,الثانية ثانوي,,اللغة العربية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-2-1,secondary,الثانية ثانوي,,اللغة العربية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-2-2,secondary,الثانية ثانوي,,الرياضيات,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-2-2,secondary,الثانية ثانوي,,الرياضيات,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-2-2,secondary,الثانية ثانوي,,الرياضيات,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-2-3,secondary,الثانية ثانوي,,اللغة الفرنسية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-2-3,secondary,الثانية ثانوي,,اللغة الفرنسية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-2-3,secondary,الثانية ثانوي,,اللغة الفرنسية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-2-4,secondary,الثانية ثانوي,,اللغة الإنجليزية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-2-4,secondary,الثانية ثانوي,,اللغة الإنجليزية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-2-4,secondary,الثانية ثانوي,,اللغة الإنجليزية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-2-5,secondary,الثانية ثانوي,,العلوم الطبيعية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-2-5,secondary,الثانية ثانوي,,العلوم الطبيعية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-2-5,secondary,الثانية ثانوي,,العلوم الطبيعية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-2-6,secondary,الثانية ثانوي,,العلوم الفيزيائية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-2-6,secondary,الثانية ثانوي,,العلوم الفيزيائية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-2-6,secondary,الثانية ثانوي,,العلوم الفيزيائية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-2-7,secondary,الثانية ثانوي,,التاريخ والجغرافيا,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-2-7,secondary,الثانية ثانوي,,التاريخ والجغرافيا,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-2-7,secondary,الثانية ثانوي,,التاريخ والجغرافيا,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-2-8,secondary,الثانية ثانوي,,الفلسفة,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-2-8,secondary,الثانية ثانوي,,الفلسفة,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-2-8,secondary,الثانية ثانوي,,الفلسفة,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-2-9,secondary,الثانية ثانوي,,العلوم الإسلامية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-2-9,secondary,الثانية ثانوي,,العلوم الإسلامية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-2-9,secondary,الثانية ثانوي,,العلوم الإسلامية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-2-10,secondary,الثانية ثانوي,,الإعلام الآلي,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-2-10,secondary,الثانية ثانوي,,الإعلام الآلي,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-2-10,secondary,الثانية ثانوي,,الإعلام الآلي,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-3-1,secondary,الثالثة ثانوي,,اللغة العربية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-3-1,secondary,الثالثة ثانوي,,اللغة العربية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-3-1,secondary,الثالثة ثانوي,,اللغة العربية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-3-2,secondary,الثالثة ثانوي,,الرياضيات,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-3-2,secondary,الثالثة ثانوي,,الرياضيات,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-3-2,secondary,الثالثة ثانوي,,الرياضيات,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-3-3,secondary,الثالثة ثانوي,,اللغة الفرنسية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-3-3,secondary,الثالثة ثانوي,,اللغة الفرنسية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-3-3,secondary,الثالثة ثانوي,,اللغة الفرنسية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-3-4,secondary,الثالثة ثانوي,,اللغة الإنجليزية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-3-4,secondary,الثالثة ثانوي,,اللغة الإنجليزية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-3-4,secondary,الثالثة ثانوي,,اللغة الإنجليزية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-3-5,secondary,الثالثة ثانوي,,العلوم الطبيعية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-3-5,secondary,الثالثة ثانوي,,العلوم الطبيعية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-3-5,secondary,الثالثة ثانوي,,العلوم الطبيعية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-3-6,secondary,الثالثة ثانوي,,العلوم الفيزيائية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-3-6,secondary,الثالثة ثانوي,,العلوم الفيزيائية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-3-6,secondary,الثالثة ثانوي,,العلوم الفيزيائية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-3-7,secondary,الثالثة ثانوي,,التاريخ والجغرافيا,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-3-7,secondary,الثالثة ثانوي,,التاريخ والجغرافيا,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-3-7,secondary,الثالثة ثانوي,,التاريخ والجغرافيا,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-3-8,secondary,الثالثة ثانوي,,الفلسفة,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-3-8,secondary,الثالثة ثانوي,,الفلسفة,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-3-8,secondary,الثالثة ثانوي,,الفلسفة,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-3-9,secondary,الثالثة ثانوي,,العلوم الإسلامية,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-3-9,secondary,الثالثة ثانوي,,العلوم الإسلامية,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-3-9,secondary,الثالثة ثانوي,,العلوم الإسلامية,3,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-3-10,secondary,الثالثة ثانوي,,الإعلام الآلي,1,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-3-10,secondary,الثالثة ثانوي,,الإعلام الآلي,2,,,,,,,,,,,pending_official_source_review,
+grade_subject_term,secondary-3-10,secondary,الثالثة ثانوي,,الإعلام الآلي,3,,,,,,,,,,,pending_official_source_review,
+secondary_pathway_subject,common_science_technology-1,secondary,الأولى ثانوي,common_science_technology,اللغة العربية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,common_science_technology-1,secondary,الأولى ثانوي,common_science_technology,اللغة الفرنسية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,common_science_technology-1,secondary,الأولى ثانوي,common_science_technology,اللغة الإنجليزية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,common_science_technology-1,secondary,الأولى ثانوي,common_science_technology,التربية الإسلامية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,common_science_technology-1,secondary,الأولى ثانوي,common_science_technology,التاريخ والجغرافيا,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,common_science_technology-1,secondary,الأولى ثانوي,common_science_technology,التربية البدنية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,common_science_technology-1,secondary,الأولى ثانوي,common_science_technology,الرياضيات,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,common_science_technology-1,secondary,الأولى ثانوي,common_science_technology,العلوم الفيزيائية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,common_science_technology-1,secondary,الأولى ثانوي,common_science_technology,علوم الطبيعة والحياة,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,common_science_technology-1,secondary,الأولى ثانوي,common_science_technology,الإعلام الآلي,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,common_science_technology-1,secondary,الأولى ثانوي,common_science_technology,التكنولوجيا,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,common_letters-1,secondary,الأولى ثانوي,common_letters,اللغة العربية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,common_letters-1,secondary,الأولى ثانوي,common_letters,اللغة الفرنسية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,common_letters-1,secondary,الأولى ثانوي,common_letters,اللغة الإنجليزية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,common_letters-1,secondary,الأولى ثانوي,common_letters,التربية الإسلامية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,common_letters-1,secondary,الأولى ثانوي,common_letters,التاريخ والجغرافيا,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,common_letters-1,secondary,الأولى ثانوي,common_letters,التربية البدنية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,common_letters-1,secondary,الأولى ثانوي,common_letters,الرياضيات,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,common_letters-1,secondary,الأولى ثانوي,common_letters,الفلسفة,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,common_letters-1,secondary,الأولى ثانوي,common_letters,الإعلام الآلي,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,common_letters-1,secondary,الأولى ثانوي,common_letters,اللغة والأدب,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,experimental_sciences-2,secondary,الثانية ثانوي,experimental_sciences,اللغة العربية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,experimental_sciences-2,secondary,الثانية ثانوي,experimental_sciences,اللغة الفرنسية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,experimental_sciences-2,secondary,الثانية ثانوي,experimental_sciences,اللغة الإنجليزية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,experimental_sciences-2,secondary,الثانية ثانوي,experimental_sciences,التربية الإسلامية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,experimental_sciences-2,secondary,الثانية ثانوي,experimental_sciences,التاريخ والجغرافيا,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,experimental_sciences-2,secondary,الثانية ثانوي,experimental_sciences,التربية البدنية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,experimental_sciences-2,secondary,الثانية ثانوي,experimental_sciences,الرياضيات,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,experimental_sciences-2,secondary,الثانية ثانوي,experimental_sciences,العلوم الفيزيائية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,experimental_sciences-2,secondary,الثانية ثانوي,experimental_sciences,علوم الطبيعة والحياة,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,experimental_sciences-2,secondary,الثانية ثانوي,experimental_sciences,الإعلام الآلي,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,experimental_sciences-2,secondary,الثانية ثانوي,experimental_sciences,علوم الطبيعة والحياة - تعمق تخصصي,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,experimental_sciences-3,secondary,الثالثة ثانوي,experimental_sciences,اللغة العربية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,experimental_sciences-3,secondary,الثالثة ثانوي,experimental_sciences,اللغة الفرنسية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,experimental_sciences-3,secondary,الثالثة ثانوي,experimental_sciences,اللغة الإنجليزية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,experimental_sciences-3,secondary,الثالثة ثانوي,experimental_sciences,التربية الإسلامية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,experimental_sciences-3,secondary,الثالثة ثانوي,experimental_sciences,التاريخ والجغرافيا,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,experimental_sciences-3,secondary,الثالثة ثانوي,experimental_sciences,التربية البدنية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,experimental_sciences-3,secondary,الثالثة ثانوي,experimental_sciences,الرياضيات,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,experimental_sciences-3,secondary,الثالثة ثانوي,experimental_sciences,العلوم الفيزيائية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,experimental_sciences-3,secondary,الثالثة ثانوي,experimental_sciences,علوم الطبيعة والحياة,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,experimental_sciences-3,secondary,الثالثة ثانوي,experimental_sciences,الإعلام الآلي,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,experimental_sciences-3,secondary,الثالثة ثانوي,experimental_sciences,علوم الطبيعة والحياة - تعمق تخصصي,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,mathematics-2,secondary,الثانية ثانوي,mathematics,اللغة العربية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,mathematics-2,secondary,الثانية ثانوي,mathematics,اللغة الفرنسية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,mathematics-2,secondary,الثانية ثانوي,mathematics,اللغة الإنجليزية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,mathematics-2,secondary,الثانية ثانوي,mathematics,التربية الإسلامية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,mathematics-2,secondary,الثانية ثانوي,mathematics,التاريخ والجغرافيا,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,mathematics-2,secondary,الثانية ثانوي,mathematics,التربية البدنية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,mathematics-2,secondary,الثانية ثانوي,mathematics,الرياضيات,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,mathematics-2,secondary,الثانية ثانوي,mathematics,العلوم الفيزيائية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,mathematics-2,secondary,الثانية ثانوي,mathematics,الإعلام الآلي,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,mathematics-2,secondary,الثانية ثانوي,mathematics,الرياضيات - تعمق تخصصي,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,mathematics-3,secondary,الثالثة ثانوي,mathematics,اللغة العربية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,mathematics-3,secondary,الثالثة ثانوي,mathematics,اللغة الفرنسية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,mathematics-3,secondary,الثالثة ثانوي,mathematics,اللغة الإنجليزية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,mathematics-3,secondary,الثالثة ثانوي,mathematics,التربية الإسلامية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,mathematics-3,secondary,الثالثة ثانوي,mathematics,التاريخ والجغرافيا,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,mathematics-3,secondary,الثالثة ثانوي,mathematics,التربية البدنية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,mathematics-3,secondary,الثالثة ثانوي,mathematics,الرياضيات,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,mathematics-3,secondary,الثالثة ثانوي,mathematics,العلوم الفيزيائية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,mathematics-3,secondary,الثالثة ثانوي,mathematics,الإعلام الآلي,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,mathematics-3,secondary,الثالثة ثانوي,mathematics,الرياضيات - تعمق تخصصي,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,technical_mathematics-2,secondary,الثانية ثانوي,technical_mathematics,اللغة العربية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,technical_mathematics-2,secondary,الثانية ثانوي,technical_mathematics,اللغة الفرنسية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,technical_mathematics-2,secondary,الثانية ثانوي,technical_mathematics,اللغة الإنجليزية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,technical_mathematics-2,secondary,الثانية ثانوي,technical_mathematics,التربية الإسلامية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,technical_mathematics-2,secondary,الثانية ثانوي,technical_mathematics,التاريخ والجغرافيا,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,technical_mathematics-2,secondary,الثانية ثانوي,technical_mathematics,التربية البدنية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,technical_mathematics-2,secondary,الثانية ثانوي,technical_mathematics,الرياضيات,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,technical_mathematics-2,secondary,الثانية ثانوي,technical_mathematics,العلوم الفيزيائية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,technical_mathematics-2,secondary,الثانية ثانوي,technical_mathematics,الإعلام الآلي,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,technical_mathematics-2,secondary,الثانية ثانوي,technical_mathematics,التكنولوجيا الهندسية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,technical_mathematics-2,secondary,الثانية ثانوي,technical_mathematics,الرسم التقني,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,technical_mathematics-3,secondary,الثالثة ثانوي,technical_mathematics,اللغة العربية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,technical_mathematics-3,secondary,الثالثة ثانوي,technical_mathematics,اللغة الفرنسية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,technical_mathematics-3,secondary,الثالثة ثانوي,technical_mathematics,اللغة الإنجليزية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,technical_mathematics-3,secondary,الثالثة ثانوي,technical_mathematics,التربية الإسلامية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,technical_mathematics-3,secondary,الثالثة ثانوي,technical_mathematics,التاريخ والجغرافيا,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,technical_mathematics-3,secondary,الثالثة ثانوي,technical_mathematics,التربية البدنية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,technical_mathematics-3,secondary,الثالثة ثانوي,technical_mathematics,الرياضيات,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,technical_mathematics-3,secondary,الثالثة ثانوي,technical_mathematics,العلوم الفيزيائية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,technical_mathematics-3,secondary,الثالثة ثانوي,technical_mathematics,الإعلام الآلي,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,technical_mathematics-3,secondary,الثالثة ثانوي,technical_mathematics,التكنولوجيا الهندسية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,technical_mathematics-3,secondary,الثالثة ثانوي,technical_mathematics,الرسم التقني,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,management_economics-2,secondary,الثانية ثانوي,management_economics,اللغة العربية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,management_economics-2,secondary,الثانية ثانوي,management_economics,اللغة الفرنسية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,management_economics-2,secondary,الثانية ثانوي,management_economics,اللغة الإنجليزية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,management_economics-2,secondary,الثانية ثانوي,management_economics,التربية الإسلامية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,management_economics-2,secondary,الثانية ثانوي,management_economics,التاريخ والجغرافيا,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,management_economics-2,secondary,الثانية ثانوي,management_economics,التربية البدنية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,management_economics-2,secondary,الثانية ثانوي,management_economics,الرياضيات,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,management_economics-2,secondary,الثانية ثانوي,management_economics,الإعلام الآلي,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,management_economics-2,secondary,الثانية ثانوي,management_economics,التسيير المحاسبي والمالي,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,management_economics-2,secondary,الثانية ثانوي,management_economics,الاقتصاد والمناجمنت,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,management_economics-2,secondary,الثانية ثانوي,management_economics,القانون,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,management_economics-3,secondary,الثالثة ثانوي,management_economics,اللغة العربية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,management_economics-3,secondary,الثالثة ثانوي,management_economics,اللغة الفرنسية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,management_economics-3,secondary,الثالثة ثانوي,management_economics,اللغة الإنجليزية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,management_economics-3,secondary,الثالثة ثانوي,management_economics,التربية الإسلامية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,management_economics-3,secondary,الثالثة ثانوي,management_economics,التاريخ والجغرافيا,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,management_economics-3,secondary,الثالثة ثانوي,management_economics,التربية البدنية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,management_economics-3,secondary,الثالثة ثانوي,management_economics,الرياضيات,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,management_economics-3,secondary,الثالثة ثانوي,management_economics,الإعلام الآلي,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,management_economics-3,secondary,الثالثة ثانوي,management_economics,التسيير المحاسبي والمالي,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,management_economics-3,secondary,الثالثة ثانوي,management_economics,الاقتصاد والمناجمنت,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,management_economics-3,secondary,الثالثة ثانوي,management_economics,القانون,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,letters_philosophy-2,secondary,الثانية ثانوي,letters_philosophy,اللغة العربية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,letters_philosophy-2,secondary,الثانية ثانوي,letters_philosophy,اللغة الفرنسية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,letters_philosophy-2,secondary,الثانية ثانوي,letters_philosophy,اللغة الإنجليزية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,letters_philosophy-2,secondary,الثانية ثانوي,letters_philosophy,التربية الإسلامية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,letters_philosophy-2,secondary,الثانية ثانوي,letters_philosophy,التاريخ والجغرافيا,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,letters_philosophy-2,secondary,الثانية ثانوي,letters_philosophy,التربية البدنية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,letters_philosophy-2,secondary,الثانية ثانوي,letters_philosophy,الرياضيات,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,letters_philosophy-2,secondary,الثانية ثانوي,letters_philosophy,الفلسفة,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,letters_philosophy-2,secondary,الثانية ثانوي,letters_philosophy,الأدب العربي,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,letters_philosophy-2,secondary,الثانية ثانوي,letters_philosophy,اللغة والأدب,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,letters_philosophy-3,secondary,الثالثة ثانوي,letters_philosophy,اللغة العربية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,letters_philosophy-3,secondary,الثالثة ثانوي,letters_philosophy,اللغة الفرنسية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,letters_philosophy-3,secondary,الثالثة ثانوي,letters_philosophy,اللغة الإنجليزية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,letters_philosophy-3,secondary,الثالثة ثانوي,letters_philosophy,التربية الإسلامية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,letters_philosophy-3,secondary,الثالثة ثانوي,letters_philosophy,التاريخ والجغرافيا,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,letters_philosophy-3,secondary,الثالثة ثانوي,letters_philosophy,التربية البدنية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,letters_philosophy-3,secondary,الثالثة ثانوي,letters_philosophy,الرياضيات,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,letters_philosophy-3,secondary,الثالثة ثانوي,letters_philosophy,الفلسفة,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,letters_philosophy-3,secondary,الثالثة ثانوي,letters_philosophy,الأدب العربي,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,letters_philosophy-3,secondary,الثالثة ثانوي,letters_philosophy,اللغة والأدب,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,foreign_languages-2,secondary,الثانية ثانوي,foreign_languages,اللغة العربية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,foreign_languages-2,secondary,الثانية ثانوي,foreign_languages,اللغة الفرنسية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,foreign_languages-2,secondary,الثانية ثانوي,foreign_languages,اللغة الإنجليزية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,foreign_languages-2,secondary,الثانية ثانوي,foreign_languages,التربية الإسلامية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,foreign_languages-2,secondary,الثانية ثانوي,foreign_languages,التاريخ والجغرافيا,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,foreign_languages-2,secondary,الثانية ثانوي,foreign_languages,التربية البدنية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,foreign_languages-2,secondary,الثانية ثانوي,foreign_languages,الرياضيات,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,foreign_languages-2,secondary,الثانية ثانوي,foreign_languages,الفلسفة,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,foreign_languages-2,secondary,الثانية ثانوي,foreign_languages,لغة أجنبية ثالثة (حسب العرض),,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,foreign_languages-2,secondary,الثانية ثانوي,foreign_languages,الأدب والحضارات,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,foreign_languages-3,secondary,الثالثة ثانوي,foreign_languages,اللغة العربية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,foreign_languages-3,secondary,الثالثة ثانوي,foreign_languages,اللغة الفرنسية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,foreign_languages-3,secondary,الثالثة ثانوي,foreign_languages,اللغة الإنجليزية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,foreign_languages-3,secondary,الثالثة ثانوي,foreign_languages,التربية الإسلامية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,foreign_languages-3,secondary,الثالثة ثانوي,foreign_languages,التاريخ والجغرافيا,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,foreign_languages-3,secondary,الثالثة ثانوي,foreign_languages,التربية البدنية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,foreign_languages-3,secondary,الثالثة ثانوي,foreign_languages,الرياضيات,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,foreign_languages-3,secondary,الثالثة ثانوي,foreign_languages,الفلسفة,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,foreign_languages-3,secondary,الثالثة ثانوي,foreign_languages,لغة أجنبية ثالثة (حسب العرض),,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,foreign_languages-3,secondary,الثالثة ثانوي,foreign_languages,الأدب والحضارات,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,arts-2,secondary,الثانية ثانوي,arts,اللغة العربية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,arts-2,secondary,الثانية ثانوي,arts,اللغة الفرنسية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,arts-2,secondary,الثانية ثانوي,arts,اللغة الإنجليزية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,arts-2,secondary,الثانية ثانوي,arts,التربية الإسلامية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,arts-2,secondary,الثانية ثانوي,arts,التاريخ والجغرافيا,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,arts-2,secondary,الثانية ثانوي,arts,التربية البدنية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,arts-2,secondary,الثانية ثانوي,arts,الرياضيات,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,arts-2,secondary,الثانية ثانوي,arts,الفلسفة,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,arts-2,secondary,الثانية ثانوي,arts,الفنون التشكيلية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,arts-2,secondary,الثانية ثانوي,arts,الموسيقى,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,arts-2,secondary,الثانية ثانوي,arts,المسرح,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,arts-3,secondary,الثالثة ثانوي,arts,اللغة العربية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,arts-3,secondary,الثالثة ثانوي,arts,اللغة الفرنسية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,arts-3,secondary,الثالثة ثانوي,arts,اللغة الإنجليزية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,arts-3,secondary,الثالثة ثانوي,arts,التربية الإسلامية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,arts-3,secondary,الثالثة ثانوي,arts,التاريخ والجغرافيا,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,arts-3,secondary,الثالثة ثانوي,arts,التربية البدنية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,arts-3,secondary,الثالثة ثانوي,arts,الرياضيات,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,arts-3,secondary,الثالثة ثانوي,arts,الفلسفة,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,arts-3,secondary,الثالثة ثانوي,arts,الفنون التشكيلية,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,arts-3,secondary,الثالثة ثانوي,arts,الموسيقى,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official
+secondary_pathway_subject,arts-3,secondary,الثالثة ثانوي,arts,المسرح,,,,,,,,,,,,pending_official_source_review,Candidate only; do not publish as official

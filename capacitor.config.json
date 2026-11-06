@@ -1,0 +1,9 @@
+{
+  "appId": "dz.smedu",
+  "appName": "SM EDU",
+  "webDir": "web",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  }
+}

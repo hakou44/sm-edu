@@ -1,0 +1,11 @@
+const fs=require('fs'),vm=require('vm'),assert=require('assert');
+const src=fs.readFileSync('web/app.js','utf8');
+const start=src.indexOf('function calculateStudyStreak('),end=src.indexOf('function studyStreakPanel(',start);
+assert(start>=0&&end>start,'streak helper must exist');
+const sandbox={};vm.createContext(sandbox);vm.runInContext(src.slice(start,end)+';this.calculateStudyStreak=calculateStudyStreak;',sandbox);
+const calc=sandbox.calculateStudyStreak;
+assert.deepStrictEqual(JSON.parse(JSON.stringify(calc([], '2026-11-01'))),{current:0,longest:0,days:0});
+assert.deepStrictEqual(JSON.parse(JSON.stringify(calc([{date:'2026-10-30'},{date:'2026-10-31'},{date:'2026-11-01'},{date:'2026-10-31'}],'2026-11-01'))),{current:3,longest:3,days:3});
+assert.deepStrictEqual(JSON.parse(JSON.stringify(calc([{date:'2026-10-28'},{date:'2026-10-30'}],'2026-11-01'))),{current:0,longest:1,days:2});
+assert.deepStrictEqual(JSON.parse(JSON.stringify(calc([{date:'2026-10-30'},{date:'2026-10-31'}],'2026-11-01'))),{current:2,longest:2,days:2});
+console.log('Study streak tests passed.');

@@ -1,0 +1,10 @@
+const fs=require('fs'),vm=require('vm'),assert=require('assert');
+const source=fs.readFileSync(__dirname+'/../web/smart-teacher.js','utf8');
+const store={smSchoolProgress:JSON.stringify([{learnerId:'kid1',subject:'الرياضيات',correct:1,total:5}])};
+const ctx={lang:'ar',level:'primary',grade:'الأولى ابتدائي',subjectsForCurrentGrade:()=>['الرياضيات','اللغة العربية'],activeLearner:()=>({id:'kid1',name:'طفل',grade:'الأولى ابتدائي'}),getProgress:()=>JSON.parse(store.smSchoolProgress),saveProgress:x=>store.smSchoolProgress=JSON.stringify(x),localStorage:{getItem:k=>store[k]||null,setItem:(k,v)=>store[k]=v},subjectPractice:{'الرياضيات':{primary:[{q:'2+2؟',choices:['3','4'],a:1,why:'2+2=4'}]}},demoBank:{primary:[]},starterLessons:[{g:'primary',s:'الرياضيات',title:{ar:'الجمع'},goal:{ar:'الجمع البسيط'},body:{ar:'شرح الجمع'}}],escapeReviewText:x=>String(x).replace(/[&<>"']/g,''),document:{getElementById:id=>id==='smartTeacherSubject'?{value:'الرياضيات'}:null},toast:()=>{},Date,Math,Number,String,Array,Object};
+vm.createContext(ctx);vm.runInContext(source+';this.page=smartTeacherPage;this.start=startSmartTeacherSession;this.submit=submitSmartTeacherSession;',ctx);
+assert(ctx.page().includes('المعلم الذكي'));ctx.start();assert(vm.runInContext('smartTeacherSession !== null',ctx));assert.equal(vm.runInContext('smartTeacherSession.items.length',ctx),1);
+ctx.document={getElementById:id=>id==='smartTeacherResult'?{innerHTML:''}:null};ctx.document.querySelector=()=>({value:'1'});ctx.document.querySelectorAll=()=>[];
+// Verify a session can only be submitted once and persists a learner-scoped result.
+ctx.document.querySelector=(sel)=>({value:'1'});ctx.submit();const rows=JSON.parse(store.smSchoolProgress);assert.equal(rows.length,2);assert.equal(rows[1].mode,'smart-teacher');assert.equal(rows[1].learnerId,'kid1');assert.equal(rows[1].correct,1);ctx.submit();assert.equal(JSON.parse(store.smSchoolProgress).length,2);
+console.log('PASS: smart teacher page, available-question selection, learner-scoped result persistence and duplicate-submit guard');

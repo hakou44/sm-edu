@@ -1,0 +1,1854 @@
+{
+ "version": "1.12.0",
+ "academic_year": "2026-2027",
+ "country": "DZ",
+ "purpose": "Transparent platform exercise and term coverage audit; not official curriculum verification.",
+ "policy": {
+  "exercise_coverage_means": "Every indexed subject-grade pair has platform-authored practice exercises in all three terms.",
+  "minimum_target": "At least 8 exercises per indexed grade-subject pair.",
+  "term_coverage_target": "At least one tagged practice question in each of the three terms per indexed subject-grade pair.",
+  "official_lesson_sequence_verified_pairs": 0,
+  "secondary_pathway_subject_matrices_verified": 0,
+  "not_a_claim_of_official_ministry_alignment": true,
+  "term_questions_are_platform_authored_not_official_exam_papers": true
+ },
+ "totals": {
+  "grades": 12,
+  "subject_grade_pairs": 105,
+  "subjects_distinct": 14,
+  "exercises": 1581,
+  "pairs_with_exercises": 105,
+  "pairs_meeting_minimum_8": 105,
+  "pairs_below_minimum_8": 0,
+  "pairs_with_all_three_terms": 105,
+  "term_extension_exercises": 315,
+  "officially_verified_pairs": 0,
+  "targeted_grade_supplement_exercises": 62,
+  "st1as_support_pack_exercises": 100,
+  "depth_pack_v1_10_exercises": 192,
+  "legacy_duplicates_replaced_v1_11": 20,
+  "generic_questions_replaced_v1_11_1": 4
+ },
+ "stages": [
+  {
+   "stage": "primary",
+   "stage_ar": "ابتدائي",
+   "grades": 5,
+   "subject_grade_pairs": 35,
+   "subjects_indexed": 8,
+   "exercises": 484,
+   "pairs_with_exercises": 35,
+   "pairs_meeting_minimum_8": 35,
+   "officially_verified_pairs": 0
+  },
+  {
+   "stage": "middle",
+   "stage_ar": "متوسط",
+   "grades": 4,
+   "subject_grade_pairs": 40,
+   "subjects_indexed": 10,
+   "exercises": 576,
+   "pairs_with_exercises": 40,
+   "pairs_meeting_minimum_8": 40,
+   "officially_verified_pairs": 0
+  },
+  {
+   "stage": "secondary",
+   "stage_ar": "ثانوي",
+   "grades": 3,
+   "subject_grade_pairs": 30,
+   "subjects_indexed": 10,
+   "exercises": 521,
+   "pairs_with_exercises": 30,
+   "pairs_meeting_minimum_8": 30,
+   "officially_verified_pairs": 0
+  }
+ ],
+ "grade_subject_coverage": [
+  {
+   "grade": "الأولى ابتدائي",
+   "stage": "primary",
+   "subject": "التاريخ والجغرافيا",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 6,
+    "2": 4,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الأولى ابتدائي",
+   "stage": "primary",
+   "subject": "التربية الإسلامية",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 6,
+    "2": 4,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الأولى ابتدائي",
+   "stage": "primary",
+   "subject": "التربية العلمية والتكنولوجية",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 6,
+    "2": 4,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الأولى ابتدائي",
+   "stage": "primary",
+   "subject": "التربية المدنية",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 6,
+    "2": 4,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الأولى ابتدائي",
+   "stage": "primary",
+   "subject": "الرياضيات",
+   "exercise_count": 12,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 6,
+    "2": 3,
+    "3": 3
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الأولى ابتدائي",
+   "stage": "primary",
+   "subject": "اللغة العربية",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 6,
+    "2": 4,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الأولى ثانوي",
+   "stage": "secondary",
+   "subject": "الإعلام الآلي",
+   "exercise_count": 33,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 12,
+    "2": 11,
+    "3": 10
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الأولى ثانوي",
+   "stage": "secondary",
+   "subject": "التاريخ والجغرافيا",
+   "exercise_count": 13,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 5,
+    "2": 4,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الأولى ثانوي",
+   "stage": "secondary",
+   "subject": "الرياضيات",
+   "exercise_count": 42,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 16,
+    "2": 13,
+    "3": 13
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الأولى ثانوي",
+   "stage": "secondary",
+   "subject": "العلوم الإسلامية",
+   "exercise_count": 13,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 5,
+    "2": 4,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الأولى ثانوي",
+   "stage": "secondary",
+   "subject": "العلوم الطبيعية",
+   "exercise_count": 37,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 13,
+    "2": 12,
+    "3": 12
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الأولى ثانوي",
+   "stage": "secondary",
+   "subject": "العلوم الفيزيائية",
+   "exercise_count": 41,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 15,
+    "2": 13,
+    "3": 13
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الأولى ثانوي",
+   "stage": "secondary",
+   "subject": "الفلسفة",
+   "exercise_count": 13,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 5,
+    "2": 4,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الأولى ثانوي",
+   "stage": "secondary",
+   "subject": "اللغة الإنجليزية",
+   "exercise_count": 13,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 5,
+    "2": 4,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الأولى ثانوي",
+   "stage": "secondary",
+   "subject": "اللغة العربية",
+   "exercise_count": 13,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 5,
+    "2": 4,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الأولى ثانوي",
+   "stage": "secondary",
+   "subject": "اللغة الفرنسية",
+   "exercise_count": 13,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 5,
+    "2": 4,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الأولى متوسط",
+   "stage": "middle",
+   "subject": "الإعلام الآلي",
+   "exercise_count": 21,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 9,
+    "2": 6,
+    "3": 6
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الأولى متوسط",
+   "stage": "middle",
+   "subject": "التاريخ والجغرافيا",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 6,
+    "2": 4,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الأولى متوسط",
+   "stage": "middle",
+   "subject": "التربية الإسلامية",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 6,
+    "2": 4,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الأولى متوسط",
+   "stage": "middle",
+   "subject": "التربية المدنية",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 6,
+    "2": 4,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الأولى متوسط",
+   "stage": "middle",
+   "subject": "الرياضيات",
+   "exercise_count": 12,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 6,
+    "2": 3,
+    "3": 3
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الأولى متوسط",
+   "stage": "middle",
+   "subject": "العلوم الطبيعية",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 6,
+    "2": 4,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الأولى متوسط",
+   "stage": "middle",
+   "subject": "العلوم الفيزيائية والتكنولوجيا",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 6,
+    "2": 4,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الأولى متوسط",
+   "stage": "middle",
+   "subject": "اللغة الإنجليزية",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 6,
+    "2": 4,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الأولى متوسط",
+   "stage": "middle",
+   "subject": "اللغة العربية",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 6,
+    "2": 4,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الأولى متوسط",
+   "stage": "middle",
+   "subject": "اللغة الفرنسية",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 6,
+    "2": 4,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثالثة ابتدائي",
+   "stage": "primary",
+   "subject": "التاريخ والجغرافيا",
+   "exercise_count": 13,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 4,
+    "2": 4,
+    "3": 5
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثالثة ابتدائي",
+   "stage": "primary",
+   "subject": "التربية الإسلامية",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 4,
+    "2": 4,
+    "3": 6
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثالثة ابتدائي",
+   "stage": "primary",
+   "subject": "التربية العلمية والتكنولوجية",
+   "exercise_count": 15,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 5,
+    "2": 4,
+    "3": 6
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثالثة ابتدائي",
+   "stage": "primary",
+   "subject": "التربية المدنية",
+   "exercise_count": 13,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 4,
+    "2": 4,
+    "3": 5
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثالثة ابتدائي",
+   "stage": "primary",
+   "subject": "الرياضيات",
+   "exercise_count": 16,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 5,
+    "2": 6,
+    "3": 5
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثالثة ابتدائي",
+   "stage": "primary",
+   "subject": "اللغة الإنجليزية",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 4,
+    "2": 5,
+    "3": 5
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثالثة ابتدائي",
+   "stage": "primary",
+   "subject": "اللغة العربية",
+   "exercise_count": 15,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 5,
+    "2": 5,
+    "3": 5
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثالثة ثانوي",
+   "stage": "secondary",
+   "subject": "الإعلام الآلي",
+   "exercise_count": 21,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 8,
+    "2": 6,
+    "3": 7
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثالثة ثانوي",
+   "stage": "secondary",
+   "subject": "التاريخ والجغرافيا",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 5,
+    "2": 4,
+    "3": 5
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثالثة ثانوي",
+   "stage": "secondary",
+   "subject": "الرياضيات",
+   "exercise_count": 12,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 4,
+    "2": 3,
+    "3": 5
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثالثة ثانوي",
+   "stage": "secondary",
+   "subject": "العلوم الإسلامية",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 5,
+    "2": 4,
+    "3": 5
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثالثة ثانوي",
+   "stage": "secondary",
+   "subject": "العلوم الطبيعية",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 5,
+    "2": 4,
+    "3": 5
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثالثة ثانوي",
+   "stage": "secondary",
+   "subject": "العلوم الفيزيائية",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 5,
+    "2": 4,
+    "3": 5
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثالثة ثانوي",
+   "stage": "secondary",
+   "subject": "الفلسفة",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 5,
+    "2": 4,
+    "3": 5
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثالثة ثانوي",
+   "stage": "secondary",
+   "subject": "اللغة الإنجليزية",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 5,
+    "2": 4,
+    "3": 5
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثالثة ثانوي",
+   "stage": "secondary",
+   "subject": "اللغة العربية",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 5,
+    "2": 4,
+    "3": 5
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثالثة ثانوي",
+   "stage": "secondary",
+   "subject": "اللغة الفرنسية",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 5,
+    "2": 4,
+    "3": 5
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثالثة متوسط",
+   "stage": "middle",
+   "subject": "الإعلام الآلي",
+   "exercise_count": 21,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 8,
+    "2": 6,
+    "3": 7
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثالثة متوسط",
+   "stage": "middle",
+   "subject": "التاريخ والجغرافيا",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 5,
+    "2": 4,
+    "3": 5
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثالثة متوسط",
+   "stage": "middle",
+   "subject": "التربية الإسلامية",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 5,
+    "2": 4,
+    "3": 5
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثالثة متوسط",
+   "stage": "middle",
+   "subject": "التربية المدنية",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 5,
+    "2": 4,
+    "3": 5
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثالثة متوسط",
+   "stage": "middle",
+   "subject": "الرياضيات",
+   "exercise_count": 12,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 4,
+    "2": 4,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثالثة متوسط",
+   "stage": "middle",
+   "subject": "العلوم الطبيعية",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 5,
+    "2": 4,
+    "3": 5
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثالثة متوسط",
+   "stage": "middle",
+   "subject": "العلوم الفيزيائية والتكنولوجيا",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 5,
+    "2": 4,
+    "3": 5
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثالثة متوسط",
+   "stage": "middle",
+   "subject": "اللغة الإنجليزية",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 5,
+    "2": 4,
+    "3": 5
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثالثة متوسط",
+   "stage": "middle",
+   "subject": "اللغة العربية",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 5,
+    "2": 4,
+    "3": 5
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثالثة متوسط",
+   "stage": "middle",
+   "subject": "اللغة الفرنسية",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 5,
+    "2": 4,
+    "3": 5
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثانية ابتدائي",
+   "stage": "primary",
+   "subject": "التاريخ والجغرافيا",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 5,
+    "2": 5,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثانية ابتدائي",
+   "stage": "primary",
+   "subject": "التربية الإسلامية",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 5,
+    "2": 5,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثانية ابتدائي",
+   "stage": "primary",
+   "subject": "التربية العلمية والتكنولوجية",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 5,
+    "2": 5,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثانية ابتدائي",
+   "stage": "primary",
+   "subject": "التربية المدنية",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 5,
+    "2": 5,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثانية ابتدائي",
+   "stage": "primary",
+   "subject": "الرياضيات",
+   "exercise_count": 12,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 5,
+    "2": 4,
+    "3": 3
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثانية ابتدائي",
+   "stage": "primary",
+   "subject": "اللغة العربية",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 5,
+    "2": 5,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثانية ثانوي",
+   "stage": "secondary",
+   "subject": "الإعلام الآلي",
+   "exercise_count": 21,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 8,
+    "2": 7,
+    "3": 6
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثانية ثانوي",
+   "stage": "secondary",
+   "subject": "التاريخ والجغرافيا",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 5,
+    "2": 5,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثانية ثانوي",
+   "stage": "secondary",
+   "subject": "الرياضيات",
+   "exercise_count": 12,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 4,
+    "2": 5,
+    "3": 3
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثانية ثانوي",
+   "stage": "secondary",
+   "subject": "العلوم الإسلامية",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 5,
+    "2": 5,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثانية ثانوي",
+   "stage": "secondary",
+   "subject": "العلوم الطبيعية",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 5,
+    "2": 5,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثانية ثانوي",
+   "stage": "secondary",
+   "subject": "العلوم الفيزيائية",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 5,
+    "2": 5,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثانية ثانوي",
+   "stage": "secondary",
+   "subject": "الفلسفة",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 5,
+    "2": 5,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثانية ثانوي",
+   "stage": "secondary",
+   "subject": "اللغة الإنجليزية",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 5,
+    "2": 5,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثانية ثانوي",
+   "stage": "secondary",
+   "subject": "اللغة العربية",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 5,
+    "2": 5,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثانية ثانوي",
+   "stage": "secondary",
+   "subject": "اللغة الفرنسية",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 5,
+    "2": 5,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثانية متوسط",
+   "stage": "middle",
+   "subject": "الإعلام الآلي",
+   "exercise_count": 23,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 8,
+    "2": 8,
+    "3": 7
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثانية متوسط",
+   "stage": "middle",
+   "subject": "التاريخ والجغرافيا",
+   "exercise_count": 13,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 4,
+    "2": 5,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثانية متوسط",
+   "stage": "middle",
+   "subject": "التربية الإسلامية",
+   "exercise_count": 13,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 4,
+    "2": 5,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثانية متوسط",
+   "stage": "middle",
+   "subject": "التربية المدنية",
+   "exercise_count": 13,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 4,
+    "2": 5,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثانية متوسط",
+   "stage": "middle",
+   "subject": "الرياضيات",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 4,
+    "2": 6,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثانية متوسط",
+   "stage": "middle",
+   "subject": "العلوم الطبيعية",
+   "exercise_count": 13,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 4,
+    "2": 5,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثانية متوسط",
+   "stage": "middle",
+   "subject": "العلوم الفيزيائية والتكنولوجيا",
+   "exercise_count": 13,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 4,
+    "2": 5,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثانية متوسط",
+   "stage": "middle",
+   "subject": "اللغة الإنجليزية",
+   "exercise_count": 13,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 4,
+    "2": 5,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثانية متوسط",
+   "stage": "middle",
+   "subject": "اللغة العربية",
+   "exercise_count": 13,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 4,
+    "2": 5,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الثانية متوسط",
+   "stage": "middle",
+   "subject": "اللغة الفرنسية",
+   "exercise_count": 13,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 4,
+    "2": 5,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الخامسة ابتدائي",
+   "stage": "primary",
+   "subject": "التاريخ والجغرافيا",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 5,
+    "2": 5,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الخامسة ابتدائي",
+   "stage": "primary",
+   "subject": "التربية الإسلامية",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 5,
+    "2": 5,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الخامسة ابتدائي",
+   "stage": "primary",
+   "subject": "التربية العلمية والتكنولوجية",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 5,
+    "2": 5,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الخامسة ابتدائي",
+   "stage": "primary",
+   "subject": "التربية المدنية",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 5,
+    "2": 5,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الخامسة ابتدائي",
+   "stage": "primary",
+   "subject": "الرياضيات",
+   "exercise_count": 12,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 4,
+    "2": 5,
+    "3": 3
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الخامسة ابتدائي",
+   "stage": "primary",
+   "subject": "اللغة الإنجليزية",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 5,
+    "2": 5,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الخامسة ابتدائي",
+   "stage": "primary",
+   "subject": "اللغة العربية",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 5,
+    "2": 5,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الخامسة ابتدائي",
+   "stage": "primary",
+   "subject": "اللغة الفرنسية",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 5,
+    "2": 5,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الرابعة ابتدائي",
+   "stage": "primary",
+   "subject": "التاريخ والجغرافيا",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 6,
+    "2": 4,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الرابعة ابتدائي",
+   "stage": "primary",
+   "subject": "التربية الإسلامية",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 6,
+    "2": 4,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الرابعة ابتدائي",
+   "stage": "primary",
+   "subject": "التربية العلمية والتكنولوجية",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 6,
+    "2": 4,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الرابعة ابتدائي",
+   "stage": "primary",
+   "subject": "التربية المدنية",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 6,
+    "2": 4,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الرابعة ابتدائي",
+   "stage": "primary",
+   "subject": "الرياضيات",
+   "exercise_count": 12,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 6,
+    "2": 3,
+    "3": 3
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الرابعة ابتدائي",
+   "stage": "primary",
+   "subject": "اللغة الإنجليزية",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 6,
+    "2": 4,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الرابعة ابتدائي",
+   "stage": "primary",
+   "subject": "اللغة العربية",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 6,
+    "2": 4,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الرابعة ابتدائي",
+   "stage": "primary",
+   "subject": "اللغة الفرنسية",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 6,
+    "2": 4,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الرابعة متوسط",
+   "stage": "middle",
+   "subject": "الإعلام الآلي",
+   "exercise_count": 21,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 9,
+    "2": 6,
+    "3": 6
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الرابعة متوسط",
+   "stage": "middle",
+   "subject": "التاريخ والجغرافيا",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 6,
+    "2": 4,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الرابعة متوسط",
+   "stage": "middle",
+   "subject": "التربية الإسلامية",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 6,
+    "2": 4,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الرابعة متوسط",
+   "stage": "middle",
+   "subject": "التربية المدنية",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 6,
+    "2": 4,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الرابعة متوسط",
+   "stage": "middle",
+   "subject": "الرياضيات",
+   "exercise_count": 12,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 5,
+    "2": 4,
+    "3": 3
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الرابعة متوسط",
+   "stage": "middle",
+   "subject": "العلوم الطبيعية",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 6,
+    "2": 4,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الرابعة متوسط",
+   "stage": "middle",
+   "subject": "العلوم الفيزيائية والتكنولوجيا",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 6,
+    "2": 4,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الرابعة متوسط",
+   "stage": "middle",
+   "subject": "اللغة الإنجليزية",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 6,
+    "2": 4,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الرابعة متوسط",
+   "stage": "middle",
+   "subject": "اللغة العربية",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 6,
+    "2": 4,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  },
+  {
+   "grade": "الرابعة متوسط",
+   "stage": "middle",
+   "subject": "اللغة الفرنسية",
+   "exercise_count": 14,
+   "has_exercises": true,
+   "minimum_target": 8,
+   "target_met": true,
+   "term_counts": {
+    "1": 6,
+    "2": 4,
+    "3": 4
+   },
+   "all_terms_covered": true,
+   "official_sequence_verified": false,
+   "status": "platform_practice_index_coverage_only"
+  }
+ ]
+}

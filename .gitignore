@@ -1,0 +1,8 @@
+node_modules/
+android/
+backend/.env
+*.log
+
+backend/data/parents.sqlite3
+.venv/
+.env
