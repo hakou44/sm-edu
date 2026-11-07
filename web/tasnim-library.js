@@ -300,7 +300,7 @@
   return head()+`<div class="tl-filters">`+
    `<select aria-label="${tr('المادة','Matière','Subject')}" onchange="SM_TASLIB.set('subject',this.value)">${opt('',tr('كل المواد','Toutes','All subjects'),S.subject)}${subs.map(s=>opt(s,s,S.subject)).join('')}</select>`+
    `<select aria-label="${tr('النوع','Type','Type')}" onchange="SM_TASLIB.set('cat',this.value)">${opt('',tr('كل الأنواع','Tous','All types'),S.cat)}${opt('exam',tr('اختبارات وفروض','Examens et devoirs','Exams & homework'),S.cat)}${opt('lesson',tr('دروس وملخصات','Cours et résumés','Lessons & summaries'),S.cat)}${opt('exercise',tr('تمارين وحلول','Exercices','Exercises'),S.cat)}</select>`+
-   `<select aria-label="${tr('الفصل','Trimestre','Term')}" onchange="SM_TASLIB.set('term',this.value)">${opt('',tr('كل الفصول','Tous','All terms'),S.term)}${[1,2,3].map(n=>opt(n,tr('الفصل '+n,'Trimestre '+n,'Term '+n),S.term)).join('')}</select>`+
+   `<div class="tl-chips">${[['',tr('الكل','Tous','All')],[1,tr('الفصل 1','T1','T1')],[2,tr('الفصل 2','T2','T2')],[3,tr('الفصل 3','T3','T3')]].map(([v,t])=>`<button class="${String(S.term)===String(v)?'on':''}" onclick="SM_TASLIB.set('term','${v}')">${t}</button>`).join('')}</div>`+
    `<input type="search" value="${esc(S.q)}" placeholder="${tr('ابحث…','Rechercher…','Search…')}" oninput="SM_TASLIB.set('q',this.value)">`+
    `<label class="tl-check"><input type="checkbox" ${S.sol?'checked':''} onchange="SM_TASLIB.set('sol',this.checked)"> ${tr('مع الحل فقط','Corrigés','With solution')}</label></div>`+
    `<div id="tlList">${listHtml()}</div>`+syncHtml()+credit();
@@ -336,3 +336,5 @@
   runSync,syncStatus,saveSync:saveSyncConfig,clearToken:clearSyncToken,syncToggle(v){SY.open=!!v},
   _t:{S,SY,repoSlug,syncHtml,store,load,loadIndex,filtered,fetchDoc,docs:()=>docs,have:()=>have,reset(){docs=null;ready=false;loading=null;have=new Set();mem.clear();Object.assign(S,{grade:'',subject:'',term:'',q:'',sol:false,shown:PAGE,bulk:null,view:null})}}};
 })();
+
+(function(){var st=document.createElement('style');st.textContent='.tl-chips{display:flex;gap:6px;flex-wrap:wrap;margin:6px 0}.tl-chips button{padding:6px 12px;border:1px solid #888;border-radius:16px;background:transparent;color:inherit}.tl-chips button.on{background:#2a7;color:#fff;border-color:#2a7}';document.head.appendChild(st)})();
