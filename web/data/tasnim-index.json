@@ -1372,6 +1372,34 @@
    "source_url": "https://www.t-onec.com/2021/04/1-03_70.html",
    "sha256": "8ea00d5df663cf6023924c1e65b22d8e17e50d36d3968e677e741240aa70550e",
    "bytes": 702488
+  },
+  {
+   "title": "اختبارات السنة الاولى 1 ابتدائي في التربية الاسلامية الفصل الثاني الجيل الثاني ن 04",
+   "grade": "الأولى ابتدائي",
+   "subject": "التربية الإسلامية",
+   "term": 2,
+   "season": "",
+   "file": "exams/1ap/islamic/na_t2_exam_1-04_82.pdf",
+   "solution": false,
+   "category": "exam",
+   "source": "Tasnim — t-onec.com (used with owner's permission)",
+   "source_url": "https://www.t-onec.com/2021/04/1-04_82.html",
+   "sha256": "9360ab18547f9166b2d12faa05f02b4dd3fabe09432c5caf08c2f274359f7730",
+   "bytes": 1196846
+  },
+  {
+   "title": "اختبارات السنة الاولى 1 ابتدائي في التربية الاسلامية الفصل الثاني الجيل الثاني ن 05",
+   "grade": "الأولى ابتدائي",
+   "subject": "التربية الإسلامية",
+   "term": 2,
+   "season": "",
+   "file": "exams/1ap/islamic/na_t2_exam_1-05_54.pdf",
+   "solution": false,
+   "category": "exam",
+   "source": "Tasnim — t-onec.com (used with owner's permission)",
+   "source_url": "https://www.t-onec.com/2021/04/1-05_54.html",
+   "sha256": "f8ea022eba180bc80c4235b356119997c3cdeca0f23798ecf42788f36824a5e1",
+   "bytes": 226493
   }
  ]
 }
