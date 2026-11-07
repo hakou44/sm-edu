@@ -141,7 +141,7 @@
    const url=URL.createObjectURL(blob),isPdf=ext(d.file)==='pdf';
    const o=document.createElement('div');o.className='tl-viewer';o.id='tlViewer';
    o.innerHTML=`<div class="tl-vbar"><button type="button" class="tl-vbtn" onclick="SM_TASLIB.close()" aria-label="${tr('إغلاق','Fermer','Close')}">✕</button><b>${esc(d.title)}</b><button type="button" class="tl-vbtn" onclick="SM_TASLIB.saveCurrent()" aria-label="${tr('حفظ أو مشاركة','Enregistrer / partager','Save / share')}">💾</button></div>`+
-    (isPdf?`<iframe class="tl-frame" src="${url}" title="${esc(d.title)}"></iframe><p class="tl-vhint">${tr('إن لم يظهر الملف على جهازك فاضغط 💾 للحفظ أو المشاركة.','Si le fichier ne s’affiche pas, touchez 💾.','If the file does not display on your device, tap 💾 to save or share.')}</p>`
+    (isPdf?`<div class="tl-pdfcard"><p>📄 ${esc(d.title)}</p><a class="tl-open" href="${url}" target="_blank" rel="noopener">${tr("فتح الملف","Ouvrir le fichier","Open file")}</a></div><p class="tl-vhint">${tr("إن لم يُفتح الملف فاضغط 💾 للحفظ أو المشاركة.","Si le fichier ne s’ouvre pas, touchez 💾.","If the file does not open, tap 💾.")}</p>`
      :`<div class="tl-vno"><p>${tr('هذا ملف Word ولا يُعرض داخل التطبيق. اضغط 💾 لحفظه أو فتحه في تطبيق Word.','Fichier Word : touchez 💾 pour l’enregistrer.','This is a Word file and cannot be shown in the app. Tap 💾 to save or open it in Word.')}</p></div>`);
    document.body.appendChild(o);document.body.style&&(document.body.style.overflow='hidden');
    S.view={i,url,blob,pushed:false};
@@ -338,3 +338,5 @@
 })();
 
 (function(){var st=document.createElement('style');st.textContent='.tl-chips{display:flex;gap:6px;flex-wrap:wrap;margin:6px 0}.tl-chips button{padding:6px 12px;border:1px solid #888;border-radius:16px;background:transparent;color:inherit}.tl-chips button.on{background:#2a7;color:#fff;border-color:#2a7}';document.head.appendChild(st)})();
+
+(function(){var st=document.createElement('style');st.textContent='.tl-pdfcard{text-align:center;padding:32px 16px}.tl-open{display:inline-block;margin-top:12px;padding:12px 28px;border-radius:24px;background:#2a7;color:#fff;text-decoration:none;font-weight:700}';document.head.appendChild(st)})();
