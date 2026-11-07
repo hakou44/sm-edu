@@ -141,10 +141,10 @@
    const url=URL.createObjectURL(blob),isPdf=ext(d.file)==='pdf';
    const o=document.createElement('div');o.className='tl-viewer';o.id='tlViewer';
    o.innerHTML=`<div class="tl-vbar"><button type="button" class="tl-vbtn" onclick="SM_TASLIB.close()" aria-label="${tr('إغلاق','Fermer','Close')}">✕</button><b>${esc(d.title)}</b><button type="button" class="tl-vbtn" onclick="SM_TASLIB.saveCurrent()" aria-label="${tr('حفظ أو مشاركة','Enregistrer / partager','Save / share')}">💾</button></div>`+
-    (isPdf?`<div class="tl-pdfcard"><p>📄 ${esc(d.title)}</p><a class="tl-open" href="${url}" target="_blank" rel="noopener">${tr("فتح الملف","Ouvrir le fichier","Open file")}</a></div><p class="tl-vhint">${tr("إن لم يُفتح الملف فاضغط 💾 للحفظ أو المشاركة.","Si le fichier ne s’ouvre pas, touchez 💾.","If the file does not open, tap 💾.")}</p>`
+    (isPdf?`<div class="tl-pdfwrap" id="tlPdf"><p class="tl-vhint">…</p></div>`
      :`<div class="tl-vno"><p>${tr('هذا ملف Word ولا يُعرض داخل التطبيق. اضغط 💾 لحفظه أو فتحه في تطبيق Word.','Fichier Word : touchez 💾 pour l’enregistrer.','This is a Word file and cannot be shown in the app. Tap 💾 to save or open it in Word.')}</p></div>`);
    document.body.appendChild(o);document.body.style&&(document.body.style.overflow='hidden');
-   S.view={i,url,blob,pushed:false};
+   S.view={i,url,blob,pushed:false};if(isPdf)renderPdf(blob);
    try{history.pushState({smSchoolPage:typeof page!=='undefined'?page:'home',tlViewer:1},'');S.view.pushed=true}catch(e){}
   }catch(e){const m=errText(e);if(m)say(m)}
  }
@@ -340,3 +340,22 @@
 (function(){var st=document.createElement('style');st.textContent='.tl-chips{display:flex;gap:6px;flex-wrap:wrap;margin:6px 0}.tl-chips button{padding:6px 12px;border:1px solid #888;border-radius:16px;background:transparent;color:inherit}.tl-chips button.on{background:#2a7;color:#fff;border-color:#2a7}';document.head.appendChild(st)})();
 
 (function(){var st=document.createElement('style');st.textContent='.tl-pdfcard{text-align:center;padding:32px 16px}.tl-open{display:inline-block;margin-top:12px;padding:12px 28px;border-radius:24px;background:#2a7;color:#fff;text-decoration:none;font-weight:700}';document.head.appendChild(st)})();
+
+async function renderPdf(blob){
+  const box=document.getElementById('tlPdf');
+  try{
+    if(!window.pdfjsLib)throw new Error('pdfjs missing');
+    pdfjsLib.GlobalWorkerOptions.workerSrc='vendor/pdfjs/pdf.worker.min.js';
+    const pdf=await pdfjsLib.getDocument({data:await blob.arrayBuffer()}).promise;
+    box.innerHTML='';
+    const w=Math.min(box.clientWidth||360,900)*(window.devicePixelRatio||1);
+    for(let n=1;n<=pdf.numPages;n++){
+      if(!document.getElementById('tlPdf'))return;
+      const pg=await pdf.getPage(n),v0=pg.getViewport({scale:1}),sc=w/v0.width,v=pg.getViewport({scale:sc});
+      const c=document.createElement('canvas');c.width=v.width;c.height=v.height;c.style.width='100%';c.className='tl-pg';
+      box.appendChild(c);
+      await pg.render({canvasContext:c.getContext('2d'),viewport:v}).promise;
+    }
+  }catch(e){box.innerHTML='<p class="tl-vhint">تعذّر عرض الملف. اضغط 💾 للحفظ.</p>';}
+}
+(function(){var st=document.createElement('style');st.textContent='.tl-pdfwrap{overflow:auto;height:calc(100% - 60px);padding:8px;background:#e9edf3}.tl-pg{display:block;margin:0 auto 8px;background:#fff;box-shadow:0 1px 4px #0003}';document.head.appendChild(st)})();
