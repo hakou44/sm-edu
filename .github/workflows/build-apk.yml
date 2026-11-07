@@ -44,8 +44,36 @@ jobs:
       - name: Sync web assets
         run: npx cap sync android
 
+      - name: Use fixed signing key
+        env:
+          KEYSTORE_B64: ${{ secrets.KEYSTORE_B64 }}
+        run: |
+          echo "$KEYSTORE_B64" | base64 -d > "$RUNNER_TEMP/smedu.keystore"
+          python3 - <<'PY'
+          import os,re
+          p='android/app/build.gradle'
+          g=open(p).read()
+          if 'smeduSigning' not in g:
+              cfg = """
+              signingConfigs {
+                  smeduSigning {
+                      storeFile file(System.getenv('RUNNER_TEMP') + '/smedu.keystore')
+                      storePassword System.getenv('KEYSTORE_PASSWORD')
+                      keyAlias System.getenv('KEY_ALIAS')
+                      keyPassword System.getenv('KEYSTORE_PASSWORD')
+                  }
+              }
+              """
+              g=re.sub(r'(android\s*\{)', r'\1' + cfg, g, count=1)
+              g=re.sub(r'(buildTypes\s*\{)', r'\1\n        debug { signingConfig signingConfigs.smeduSigning }', g, count=1)
+              open(p,'w').write(g)
+          PY
+
       - name: Build debug APK
         working-directory: android
+        env:
+          KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
         run: |
           chmod +x gradlew
           ./gradlew assembleDebug
